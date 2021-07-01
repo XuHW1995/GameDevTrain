@@ -46,6 +46,44 @@ namespace DefaultNamespace
         }
         #endregion
 
+        #region 变换
+
+        public Vector3 from;
+        public Vector3 to;
+
+        //新坐标系Y轴正方向
+        public Vector2 newCoordSystemYPositive;
+        //新坐标系中的位置
+        public Vector2 newCoordSystemPos;
+        [ContextMenu("测试变换Transform")]
+        public void TestTransform()
+        {
+            float _2dangle = Vector2.SignedAngle(from, to);
+            Debug.Log("2D夹角" + _2dangle);
+
+            float _3dangle = Vector3.SignedAngle(from, to, Vector3.up);
+            Debug.Log("3D夹角, 相对轴为up" + _3dangle);
+
+            float _3dangle2 = Vector3.SignedAngle(from, to, Vector3.down);
+            Debug.Log("3D夹角, 相对轴为down" + _3dangle2);
+            
+            TransformVector(newCoordSystemYPositive, newCoordSystemPos);
+        }
+        private void TransformVector(Vector2 newForward, Vector2 newCoordSystemPos)
+        {
+            float rotateRad = Vector2.Angle(Vector2.up, newForward)/Mathf.Rad2Deg;
+            float worldPosX = newCoordSystemPos.x * Mathf.Cos(rotateRad) +
+                              newCoordSystemPos.y * Mathf.Sin(rotateRad);
+
+
+            float worldPosY = newCoordSystemPos.y * Mathf.Cos(rotateRad) -
+                              newCoordSystemPos.x * Mathf.Sin(rotateRad);
+                              
+            
+            Debug.Log("原始坐标系中的位置为" + worldPosX + "---" + worldPosY);
+        }
+        #endregion
+        
         public Text text;
         public void ShowText()
         {
