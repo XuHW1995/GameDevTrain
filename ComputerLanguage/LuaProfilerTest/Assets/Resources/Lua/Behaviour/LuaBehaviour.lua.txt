@@ -1,0 +1,134 @@
+-----------------
+-- 说明：
+-- 
+-- 所有继承自LuaBehaviour的table我们称之为LuaBehaviour Class(简称 luaClass)
+-- LuaBehaviour Class的名字就是这个文件的文件名，而不是table标识名
+-- 继承的特点与c++类的继承类似，所有继承的都为public继承，所有的成员方法都是public
+-- 继承自LuaBehaviour的table通过LuaMB.cs脚本关联后，被用来模拟MonoBehaviour。
+-- 继承自LuaBehaviour的table，简称lb。
+-----------------
+local Class = require('Behaviour/Class')
+local LuaBehaviour = Class.class()
+
+
+-----------------
+-- 静态辅助方法--
+-----------------
+--往一个GameObject上加上LuaMB组件
+function LuaBehaviour.AddComponentLuaMB( gameObject, luaClassPathName, args)
+    -- body
+    gameObject:SetActive(false)
+    local lmb = gameObject:AddComponent(typeof(CS.LuaMB));
+    lmb.luaFilePath = luaClassPathName;--"UI/Login/UILogin"
+    lmb.args = args;
+    gameObject:SetActive(true)
+    return lmb.lb;
+end
+
+-- 从gameObject对象上获取带有 LuaMB 组件游戏对象的 lua脚本对象（即LuaBehaviour对象，简称lb）
+-- 当gameObject有多个LuaMB时,返回与luaClassName同名的第一个lb
+-- 当luaClassName为空时，直接返回第一个lb，通常用来返回只有一个LuaMB组件的gameObject对象（不需要关心LuaBehaviour Class的名字）
+function LuaBehaviour.GetLuaBehaviour(gameObject,luaClassName)
+    local mbs = gameObject:GetComponents(typeof(CS.LuaMB))
+    for i=0,mbs.Length - 1 do--LuaArray.Table(other)
+        --print("GetLuaBehaviourLua:",mbs[i].lb.luaClassName);
+        if not mbs[i] then 
+            --没有LuaMB组件
+            return;
+        end
+        if not luaClassName then
+            --实际上能走到这里的i总是为0，即第一个lb
+            return mbs[i].lb;
+        end
+        if mbs[i].lb.luaClassName == luaClassName then
+            return mbs[i].lb;
+        end
+    end
+end
+
+
+-- 实例化一个带有 LuaMB 组件的游戏对象
+-- callback: function(luaBehaviour)
+function LuaBehaviour.Instantiate(originalGameObject, callback)
+    assert(callback == nil, 'illegal arg callback.')
+    local gameObject = CS.UnityEngine.GameObject.Instantiate(originalGameObject)
+    -- mb.startCallback = callback
+    return LuaBehaviour.GetLuaBehaviour(gameObject), gameObject
+end
+
+--给一个gameobject添加LuaMB组件
+-- function LuaBehaviour.AddLuaMB(gameObject,luaClassPathName)
+--     assert(gameObject,"must be not nil!")
+--     assert(type(luaClassPathName) == "string", "must be string!")
+--     gameObject:SetActive(false);
+--     local luamb = gameObject:AddComponent(typeof(CS.LuaMB));
+--     luamb.luaFilePath = luaClassPathName; 
+--     luamb.Gos = {}
+--     gameObject:SetActive(true);
+--     -- if mb.lb.InitArgForMB then
+--     --     mb.lb:InitArgForMB(...);
+--     -- else
+--     --     if select("#", ...)>0 then
+--     --         assert(nil,"in MB'lb not have function([InitArgForMB])!");
+--     --     end
+--     -- end
+--     return luamb;
+-- end
+
+-----------------
+----构造
+function LuaBehaviour:Constructor(cs,luaname)
+    -- MonoBehaviour 对象的引用
+    self.cs = cs
+
+    --保存自己的类名
+    self.luaClassName = luaname;
+    self.args = cs.args
+    self.gameObject = self.cs.gameObject
+    self.transform = self.gameObject.transform
+    
+    --快捷访问
+    assert(self.Gos == nil,"The field('Gos') was occupied");
+    self.Gos = {};
+    if self.cs.Gos then
+        for i=1,self.cs.Gos.Length do
+            local n = self.cs.Gos[i-1].name;
+            local v = self.cs.Gos[i-1].value
+            assert(n and v,"The Name(or Value) of the Gos element is nil")
+            self.Gos[n] = v;
+        end
+    end
+
+    --
+end
+
+-- 查找子节点
+-- 参数： 可以传入一个 path （如果 path 以 / 开头则查找全局节点，
+--              否则查找本节点的子节点）
+--        也可以传入一个 gameObject 和一个 path （查找传入节点的子节点）
+-- 返回一个 GameObject
+-- function LuaBehaviour:F(...)
+--     local argCount = select('#', ...)
+--     if argCount == 1 then
+--         local transform, path = self.transform, select(1, ...)
+--         if string.sub(path, 1, 1) == '/' then
+--             return UnityEngine.GameObject.Find(path)
+--         else
+--             return transform:Find(path).gameObject
+--         end
+--     elseif argCount == 2 then
+--         local transform, path = select(1, ...).transform, select(2, ...)
+--         return transform:Find(path).gameObject
+--     else
+--         assert(false, 'illegal arg count: ' .. argCount)
+--     end
+-- end
+
+
+-- 用于快速判断 lua table 是否为 LuaBehaviour 
+LuaBehaviour.bLuaBehaviour = true;
+
+
+
+
+return LuaBehaviour

@@ -1,0 +1,17 @@
+---------------------------------------------------------------------
+-- Created by: {author}
+-- Date: 2021-03-17 16:04:40
+-- Des:
+---------------------------------------------------------------------
+local Class = require('Behaviour/Class');
+local SonClass = require("SonClass")
+local GrandSonClass = Class.class(SonClass);
+
+function GrandSonClass:constructor()
+end
+
+function GrandSonClass:Update(  )
+    print("GrandSonClass Update")
+end
+
+return GrandSonClass;

@@ -1,0 +1,149 @@
+---------------------------------------------------------------------
+-- LuaProfilerTest (C) CompanyName, All Rights Reserved
+-- Created by: AuthorName
+-- Date: 2021-07-04 16:21:41
+---------------------------------------------------------------------
+
+-- To edit this template in: Data/Config/Template.lua
+-- To disable this template, check off menuitem: Options-Enable Template File
+
+---@class LuaUnitTest
+local LuaUnitTest = {}
+
+function LuaUnitTest:TestFun()
+	--local testTabel = {};
+	--for i = 1, 10 do
+		--testTabel[i+1] = i;
+	--end
+	
+	--print("testTabel", testTabel);
+	
+	--local testT2 = 
+	--{
+		--a = 1,
+		--b = 2;
+		--c = 3;
+	--}
+	
+	--print(testT2);
+	
+	--self:RefFun(testTabel, testT2)
+	
+	--print(testTabel, testT2);
+	
+	--local a = 100
+	--self:TestValue(a);
+	--print(a)
+	
+	--local week = {a = 123, "zhou2", x = "zhou1", "zhou3"}
+	--for k,v in pairs(week) do
+		--print("k = "..k.." value = "..v)
+	--end
+	
+	--local testArray = {111,222,333,666}
+	--local a1, a2 ,a3 ,a4 = self:luaUnpack(testArray)
+	
+	--self:TestVariableArguments(1,333,"hahah")
+	
+	--local fun = function(x)
+		--return x + 1;
+	--end
+	
+	-- 闭包
+	--print(fun(2))
+	--local t = self:ClosureTest()
+	--local t2 = self:ClosureTest()
+	--print(t());
+	--print(t());
+	--print(t());
+	--print(t());
+	
+	--print(t2())
+	
+	--非全局函数
+	--local t = {};
+	--t.tfun = function()
+		--return "hahah"
+	--end
+	
+	--print(t.tfun())
+	
+	--尾调用
+	--local function f()
+		--return 1;
+	--end
+	
+	--local function x()
+		--return f();
+	--end
+	
+	--print(x())
+	
+	--迭代器测试
+	local function Iterator(t)
+		local i = 0
+		return function ()
+				i = i + 1;
+			print("i = "..i)
+				return t[i];
+			end
+	end
+
+	local TestTable = {"222","333","444","555","666"}
+	
+	--把迭代器函数iterator 返回的闭包存起来
+	local vIterator = Iterator(TestTable);
+	
+	while (true) do
+		--每次调用闭包函数，都相当于对闭包内存的非局部变量i进行了一次运算，此时闭包函数就相当于一个迭代器的执行栈
+		--
+		local element = vIterator();
+		if (element == nil) then
+			break;
+		end
+		
+		print(element);
+	end
+	
+end
+
+function LuaUnitTest:TestValue(value)
+	do return end;
+	value = value + 1
+end
+
+function LuaUnitTest:RefFun(test1, test2)
+	test1[2] = 666
+	test2.a = 3;
+	print(test1, test2)
+end
+
+function LuaUnitTest:luaUnpack(t)
+	local function unpack(t, i)
+		i = i or 1;
+		if (t[i] ~= nil) then
+			return t[i], unpack(t, i + 1);
+		end
+	end
+	
+	return unpack(t);
+end
+
+function LuaUnitTest:TestVariableArguments(a1, ...)
+	local args = {...}
+	for k,v in pairs(args) do
+		print(v);
+	end
+end
+
+function LuaUnitTest:ClosureTest()
+	local i = 1;
+	
+	return function ()
+		--此处的i为一个“非局部变量”
+		i = i + 1;
+		return i;
+	end
+end
+
+return LuaUnitTest;

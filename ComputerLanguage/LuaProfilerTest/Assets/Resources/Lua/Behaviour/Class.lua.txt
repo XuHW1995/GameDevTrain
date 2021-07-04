@@ -1,0 +1,74 @@
+local class = {}
+
+function class.class(super)
+    local mt = {__call = function(_c, ...)
+        local function _create(_c, _o, ...)
+            if _c.__super then _create(_c.__super, _o, ...) end
+            if rawget( _c,"constructor") then _c.constructor(_o, ...) end
+            return _o
+        end
+
+        -- local _o = _create(_c, {}, ...)
+        -- return setmetatable(_o, _c)
+        -- 可以在构造函数中调用虚方法，慎用！
+        local _o = setmetatable({}, _c)
+        return _create(_c, _o, ...)
+    end}
+
+    mt.__index = super or mt
+    local c = {__super = super}
+    c.__index = c
+
+    c.delete = function (obj)
+        local function _remove(_c)
+            if rawget( _c,"destructor") then _c.destructor(obj); end
+            if _c.__super then _remove(_c.__super); end
+        end
+
+        _remove(obj);
+    end
+
+    return setmetatable(c, mt)
+end
+
+--[[
+    @desc: Lua多重继承
+    author:XuHongWei
+    time:2021-03-16 10:23:40
+    --@args: 父表列表,默认第一个参数是父类，后续参数是接口
+    @return:子表实例
+]]
+function class.MultipleClass(...)
+    local classList = {...};
+
+    local metaTable = {};
+    metaTable.__call = function(_c, ...)
+        local function _create(_c, _o, ...)
+            if _c.__super then _create(_c.__super, _o, ...) end
+            if rawget( _c,"constructor") then _c.constructor(_o, ...) end
+            return _o
+        end
+
+        local _o = setmetatable({}, _c)
+        return _create(_c, _o, ...)
+    end
+
+    metaTable.__index = function (sourceTable, key)
+        for _, oneFatherClass in ipairs(classList) do
+            if (oneFatherClass[key]) then
+                return oneFatherClass[key];
+            end
+        end
+    end;
+
+    local super = classList[1] or {}
+    local c = {__super = super};
+    c.__index = c;
+    return setmetatable(c, metaTable);
+end
+
+function class.type(o)
+    return getmetatable(o)
+end
+
+return class

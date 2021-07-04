@@ -1,0 +1,13 @@
+---------------------------------------------------------------------
+-- Created by: {author}
+-- Date: 2021-03-17 16:04:29
+-- Des:
+---------------------------------------------------------------------
+local Class = require('Behaviour/Class');
+local FatherClass = require("FatherClass")
+local SonClass = Class.class(FatherClass);
+
+function SonClass:constructor()
+end
+
+return SonClass;

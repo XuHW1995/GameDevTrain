@@ -1,0 +1,17 @@
+require('LuaDebuggee').StartDebug('127.0.0.1', 9826);
+
+local Class = require('Behaviour/Class');
+local LuaBehaviour = require('Behaviour/LuaBehaviour');
+local Main = Class.class(LuaBehaviour);
+
+local LuaUnitTest = require('LuaTrain/LuaUnitTest');
+
+function Main:Start(  )
+	LuaUnitTest:TestFun();
+end
+
+function Main:Update()
+   
+end
+
+return Main
