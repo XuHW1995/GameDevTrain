@@ -1,53 +1,48 @@
-﻿Shader "Custom/HelloShader"
+﻿Shader "XHW/HelloShader"
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
-        _MainTex ("Albedo (RGB)", 2D) = "white" {}
-        _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _Metallic ("Metallic", Range(0,1)) = 0.0
+        
+        [Header(hahahahhha)]_MyColor("TestColorAttr", Color) = (1, 1, 1, 1)
+        [HideInInspector]_MyInt("TestIntAttr", int) = 1
+        _MyFloat("TestFloatAttr", float) = 0.3
+        _MyRange("TestRangeAttr", range(0, 3)) = 0.2
+        [IntRange]_MyIntRange("TestIntRange", range(0, 3)) = 0.2
+        [PowerSlider(10)]_MyPowerRange("TestPowerSlider", range(0, 3)) = 0.2
+        [Toggle]_MyToggle("TestToggleAttr", int) = 1
+        [Enum(UnityEngine.Rendering.CullMode)]_MyEnum("TestEnumAttr", int) = 1
+
+        _MyVector4("TestVector4Attr", vector) = (1,2,3,4)
+        _MyTexture2D("Test2dTexture", 2D) = "white"{}
+        [Normal]_MyNormalMap2D("TestNormalMap", 2D) = "gray"{}
+        _MyTexture3d("Test3dTexture", 3d) = ""{}
+        _MyCubeMapTexture("TestCubeMap", cube) = ""{}
+
     }
+    //123
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 200
-
-        CGPROGRAM
-        // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows
-
-        // Use shader model 3.0 target, to get nicer looking lighting
-        #pragma target 3.0
-
-        sampler2D _MainTex;
-
-        struct Input
+        Pass
         {
-            float2 uv_MainTex;
-        };
+            CGPROGRAM
+            //顶点着色函数声明
+            #pragma vertex vert
+            #pragma fragment frag
 
-        half _Glossiness;
-        half _Metallic;
-        fixed4 _Color;
+            float4 vert(float4 vertex: POSITION): SV_POSITION
+            {
+                return UnityObjectToClipPos(vertex);
+            }
 
-        // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
-        // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
-        // #pragma instancing_options assumeuniformscaling
-        UNITY_INSTANCING_BUFFER_START(Props)
-            // put more per-instance properties here
-        UNITY_INSTANCING_BUFFER_END(Props)
+            fixed4 _MyColor;
+            float4 frag():SV_Target
+            {
+                return _MyColor;
+            }
 
-        void surf (Input IN, inout SurfaceOutputStandard o)
-        {
-            // Albedo comes from a texture tinted by color
-            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            o.Albedo = c.rgb;
-            // Metallic and smoothness come from slider variables
-            o.Metallic = _Metallic;
-            o.Smoothness = _Glossiness;
-            o.Alpha = c.a;
+            ENDCG
         }
-        ENDCG
     }
     FallBack "Diffuse"
+    CustomEditor "EditorName"
 }
