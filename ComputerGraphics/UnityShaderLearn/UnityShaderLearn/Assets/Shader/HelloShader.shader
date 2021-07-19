@@ -29,15 +29,38 @@
             #pragma vertex vert
             #pragma fragment frag
 
-            float4 vert(float4 vertex: POSITION): SV_POSITION
+            struct appData
             {
-                return UnityObjectToClipPos(vertex);
+                float4 vertex:POSITION;
+                float2 uv:TEXCOORD;
+            };
+
+            struct v2f
+            {
+                float4 pos : SV_POSITION;
+                                float2 uv:TEXCOORD;
+            };
+            
+            v2f vert(appData v)
+            {
+                v2f fData;
+                fData.pos = UnityObjectToClipPos(v.vertex);
+                fData.uv = v.uv;
+                return fData;
             }
 
-            fixed4 _MyColor;
-            float4 frag():SV_Target
+            fixed checker(float2 uv)
             {
-                return _MyColor;
+                float2 repeatUV = uv * 10;
+                float2 c = floor(repeatUV)/2;
+                float checker = frac(c.x + c.y) * 2;
+                return checker;
+            }
+            
+            fixed4 _MyColor;
+            float4 frag(v2f i):SV_Target
+            {
+                return checker(i.uv);
             }
 
             ENDCG
