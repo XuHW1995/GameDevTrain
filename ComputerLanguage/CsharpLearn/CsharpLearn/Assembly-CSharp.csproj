@@ -52,8 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Csharp.cs" />
      <Compile Include="Assets\Scripts\FatherClass.cs" />
+     <Compile Include="Assets\Scripts\DelegateTest.cs" />
+     <Compile Include="Assets\Scripts\EventTest.cs" />
+     <Compile Include="Assets\Scripts\Csharp.cs" />
      <Compile Include="Assets\Scripts\StackAndHeapLearn.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -277,8 +279,17 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -625,8 +636,17 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -634,14 +654,20 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.SecurityStub">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -652,8 +678,47 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Analytics">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.SecurityCore">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.Codeless">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.Stores">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>E:/GameDevTrain/ComputerLanguage/CsharpLearn/CsharpLearn/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
