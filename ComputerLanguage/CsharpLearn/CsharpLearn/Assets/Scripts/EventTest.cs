@@ -19,14 +19,14 @@ namespace DefaultNamespace
             // timer.Elapsed += eh2.Sing;
             //
             // timer.Start();
-
             
             Customer c = new Customer();
             Waiter w = new Waiter();
             //事件订阅
-            c.Order += w.Action;
+            //c.Order += w.Action;
+            //c.eh2 += w.Action;
             c.eventOrder += w.Action;
-            c.eh2 += w.Action;
+            
             c.BeginOrder();
             c.PayBill();
         }
@@ -49,26 +49,27 @@ namespace DefaultNamespace
     //事件拥有者
     public class Customer
     {
-        private OrderEventHandler orderEventHandler;
-        //事件旧的声明方式
-        public event OrderEventHandler Order
-        {
-            add
-            {
-                this.orderEventHandler += value;
-            }
-
-            remove
-            {
-                this.orderEventHandler -= value;
-            }
-        }
+        // //完整声明形式
+        // private OrderEventHandler orderEventHandler;
+        // //事件旧的声明方式
+        // public event OrderEventHandler Order
+        // {
+        //     add
+        //     {
+        //         this.orderEventHandler += value;
+        //     }
+        //
+        //     remove
+        //     {
+        //         this.orderEventHandler -= value;
+        //     }
+        // }
 
         //简化版事件声明方式
-        public event OrderEventHandler eventOrder;
-        
-        //委托声明方式
-        public OrderEventHandler eh2;
+        public event EventHandler eventOrder;
+        //
+        // //委托声明方式（不安全，外部可以访问，并且执行，这就相当于暴露出一些隐患）
+        // public OrderEventHandler eh2;
         
         public double bill { get; set; }
 
@@ -76,29 +77,29 @@ namespace DefaultNamespace
         {
             Debug.Log("付钱" + bill);
         }
-
-        public void Walkin()
-        {
-            Debug.Log("客人进来啦");
-            
-        }
-
+        
         public void BeginOrder()
         {
             Debug.Log("开始点菜");
+            OnOrder("水煮肉", "Big");
+            OnOrder("土豆丝", "Small");
+            OnOrder("炒黄瓜", "Small");
+        }
 
-            OrderEventArgs e = new OrderEventArgs();
-            e.name = "水煮肉";
-            e.size = "Big";
-            this.orderEventHandler(this, e);
-
-            e.name = "土豆丝";
-            e.size = "Small";
-            this.eventOrder(this, e);
-            
-            e.name = "炒黄瓜";
-            e.size = "Small";
-            this.eh2(this, e);
+        /// <summary>
+        /// 事件执行器，一般用OnXXX命名
+        /// </summary>
+        /// <param name="dishName"></param>
+        /// <param name="size"></param>
+        protected void OnOrder(string dishName, string size)
+        {
+            if (eventOrder != null)
+            {
+                OrderEventArgs e = new OrderEventArgs();
+                e.name = dishName;
+                e.size = size;
+                eventOrder(this, e);
+            }
         }
     }
 
@@ -106,11 +107,14 @@ namespace DefaultNamespace
     public class Waiter
     {
         //事件处理器
-        public void Action(Customer customer, OrderEventArgs e)
+        public void Action(object customer, EventArgs e)
         {
-            Debug.Log("服务员上菜"+  e.name);
+            Customer c = customer as Customer;
+            OrderEventArgs oe = e as OrderEventArgs;
+
+            Debug.Log("服务员上菜"+  oe.name);
             int price = 0;
-            switch (e.size)
+            switch (oe.size)
             {
                 case "Small":
                     price = 10;
@@ -123,7 +127,7 @@ namespace DefaultNamespace
                     break;
             }
 
-            customer.bill += price;
+            c.bill += price;
         }
     }
     
