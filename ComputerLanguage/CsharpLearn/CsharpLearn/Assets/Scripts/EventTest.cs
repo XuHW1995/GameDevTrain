@@ -7,7 +7,8 @@ namespace DefaultNamespace
     public class EventTest : MonoBehaviour
     {
         Timer timer = new Timer();
-        public void Start()
+
+        protected void Start()
         {
 
             // timer.Interval = 1000;
@@ -25,10 +26,13 @@ namespace DefaultNamespace
             //事件订阅
             //c.Order += w.Action;
             //c.eh2 += w.Action;
-            c.eventOrder += w.Action;
-            
-            c.BeginOrder();
-            c.PayBill();
+            c.EventOrder += w.Action;
+
+            Debug.Log("开始点菜");
+            c.OnOrder("水煮肉", "Big");
+            c.OnOrder("土豆丝", "Small");
+            c.OnOrder("炒黄瓜", "Small");
+            c.NewCustormer.PayBill();
         }
 
         private void OnDisable()
@@ -47,8 +51,53 @@ namespace DefaultNamespace
     public delegate void OrderEventHandler(Customer customer, OrderEventArgs e);
     
     //事件拥有者
-    public class Customer
+    public interface ICustomer
     {
+        void BeginOrder2();
+    }
+
+    public class HAHA
+    {
+        private Customer _customer;
+
+        public HAHA(Customer customer)
+        {
+            _customer = customer;
+        }
+
+        public void BeginOrder2()
+        {
+            Debug.Log("开始点菜");
+            _customer.OnOrder("水煮肉", "Big");
+            _customer.OnOrder("土豆丝", "Small");
+            _customer.OnOrder("炒黄瓜", "Small");
+        }
+    }
+
+    public class NewCustormer
+    {
+        public NewCustormer()
+        {
+        }
+
+        public double bill { get; set; }
+
+        public void PayBill()
+        {
+            Debug.Log("付钱" + bill);
+        }
+    }
+
+    public partial class Customer : ICustomer
+    {
+        private readonly HAHA _haha;
+        private readonly NewCustormer _newCustormer;
+
+        public Customer()
+        {
+            _haha = new HAHA(this);
+            _newCus = new NewCus(this);
+        }
         // //完整声明形式
         // private OrderEventHandler orderEventHandler;
         // //事件旧的声明方式
@@ -66,40 +115,19 @@ namespace DefaultNamespace
         // }
 
         //简化版事件声明方式
-        public event EventHandler eventOrder;
+        public event EventHandler EventOrder;
         //
         // //委托声明方式（不安全，外部可以访问，并且执行，这就相当于暴露出一些隐患）
         // public OrderEventHandler eh2;
-        
-        public double bill { get; set; }
 
-        public void PayBill()
+        public NewCustormer NewCustormer
         {
-            Debug.Log("付钱" + bill);
-        }
-        
-        public void BeginOrder()
-        {
-            Debug.Log("开始点菜");
-            OnOrder("水煮肉", "Big");
-            OnOrder("土豆丝", "Small");
-            OnOrder("炒黄瓜", "Small");
+            get { return _newCustormer; }
         }
 
-        /// <summary>
-        /// 事件执行器，一般用OnXXX命名
-        /// </summary>
-        /// <param name="dishName"></param>
-        /// <param name="size"></param>
-        protected void OnOrder(string dishName, string size)
+        public void BeginOrder2()
         {
-            if (eventOrder != null)
-            {
-                OrderEventArgs e = new OrderEventArgs();
-                e.name = dishName;
-                e.size = size;
-                eventOrder(this, e);
-            }
+            _haha.BeginOrder2();
         }
     }
 
@@ -112,22 +140,25 @@ namespace DefaultNamespace
             Customer c = customer as Customer;
             OrderEventArgs oe = e as OrderEventArgs;
 
-            Debug.Log("服务员上菜"+  oe.name);
-            int price = 0;
-            switch (oe.size)
+            if (oe != null)
             {
-                case "Small":
-                    price = 10;
-                    break;
-                case "Big":
-                    price = 20;
-                    break;
-                default:
-                    price = 5;
-                    break;
-            }
+                Debug.Log("服务员上菜" + oe.name);
+                int price = 0;
+                switch (oe.size)
+                {
+                    case "Small":
+                        price = 10;
+                        break;
+                    case "Big":
+                        price = 20;
+                        break;
+                    default:
+                        price = 5;
+                        break;
+                }
 
-            c.bill += price;
+                c.NewCustormer.bill += price;
+            }
         }
     }
     
