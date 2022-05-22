@@ -1,0 +1,16 @@
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.exe
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.deps.json
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.runtimeconfig.json
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.runtimeconfig.dev.json
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.dll
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\ref\CSAPPLearn.dll
+E:\GameDevTrain\CSAPP\CSAPPLearn\bin\Debug\net5.0\CSAPPLearn.pdb
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.csproj.AssemblyReference.cache
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.GeneratedMSBuildEditorConfig.editorconfig
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.AssemblyInfoInputs.cache
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.AssemblyInfo.cs
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.csproj.CoreCompileInputs.cache
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.dll
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\ref\CSAPPLearn.dll
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.pdb
+E:\GameDevTrain\CSAPP\CSAPPLearn\obj\Debug\net5.0\CSAPPLearn.genruntimeconfig.cache
