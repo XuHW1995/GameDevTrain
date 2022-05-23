@@ -98,6 +98,7 @@ namespace DefaultNamespace
             _haha = new HAHA(this);
             _newCus = new NewCus(this);
         }
+        
         // //完整声明形式
         // private OrderEventHandler orderEventHandler;
         // //事件旧的声明方式
