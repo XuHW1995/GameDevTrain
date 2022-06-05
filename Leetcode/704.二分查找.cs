@@ -47,13 +47,36 @@
 public class Solution {
     public int Search(int[] nums, int target) {
         int left = 0;
-        int right = nums.count - 1;
-        int middle = nums.count/2 + 1;
-
-        while(left <= middle)
+        //左右都是闭区间
+        int right = nums.Length - 1;
+        
+        while(left <= right)
         {
-            
+            //int middle = (right - left)/2 - left;
+            //防止溢出？
+            int middle = (left + right)/2;
+
+            int middleNum = nums[middle];
+
+            if(middleNum == target)
+            {
+                return middle;
+            }
+            //目标在右区间，且当前middle不是目标，则下次检测区间变成
+            //[middle + 1, right]
+            else if(middleNum < target)
+            {
+                left = middle + 1;
+            }
+            //目标在左区间，且当前middle不是目标，则下次检测区间变成
+            //[left, middle - 1]
+            else if(middleNum > target)
+            {
+                right = middle - 1;
+            }
         }
+
+        return -1;
     }
 }
 // @lc code=end
