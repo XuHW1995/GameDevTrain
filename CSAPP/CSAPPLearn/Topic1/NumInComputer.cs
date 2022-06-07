@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSAPPLearn.Topic1
 {
@@ -8,7 +9,11 @@ namespace CSAPPLearn.Topic1
         {
             //TestIntAndLong();
             //TestDataInMemoryStruct();
-            TestValueAndReference();
+            //TestValueAndReference();
+
+            Complatement();
+
+            UintTest();
         }
 
         #region int和long在计算机中的表示
@@ -54,8 +59,7 @@ namespace CSAPPLearn.Topic1
             return testMemoryReferencing.b;
         }
         #endregion
-
-
+        
         #region 值类型和引用类型
         public class ReferenceObj
         {
@@ -93,7 +97,6 @@ namespace CSAPPLearn.Topic1
         //以传值(值拷贝)的方式进行参数传递，但是传递的参数本身是一个数据的引用，也就是地址，所以在内部进行数据修改，可以影响到外部
         private static void ChangeAll(ReferenceObj referenceObj)
         {
-            referenceObj = new ReferenceObj();
             referenceObj.age = 12;
             referenceObj.name = "大丢丢";
         }
@@ -130,5 +133,29 @@ namespace CSAPPLearn.Topic1
         
         //Hello world的一生
         #endregion
+        
+        #region 有符号数在计算机中的表示方式，都是用补码的方式来表示的
+
+        //正数的补码是本身，负数的补码是  原码除符号位取反再+1
+        public static void Complatement()
+        {
+            int result = -3 << 1;
+            
+            // -3 = 1011(原) ————1100（除符号位取反） + 1 = 1101（-3的补码，也就是计算机中的有符号数表示） 左移一位 = 1010（-3<<1）= -8 + 2 = -6(1010 补)  如果想补码再求原码 则对补码再求一次补
+            //目的是为了  把正负号全部统一再一个域内，并且+-法也再一个域内
+            
+            //result = -6
+            Console.WriteLine(result);
+        }
+
+        #endregion
+
+        public static void UintTest()
+        {
+            uint x = 1;
+            object y = 2U;
+            int result = x.CompareTo(y);
+            List<int> lx = new List<int>();
+        }
     }
 }
