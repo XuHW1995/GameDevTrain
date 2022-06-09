@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 namespace CSAPPLearn.Topic1
 {
+    [XHWTest(age = 27, name = "xuhongwei dadiu")]
     public static class NumInComputer
     {
         public static void IntPrint()
@@ -10,10 +13,10 @@ namespace CSAPPLearn.Topic1
             //TestIntAndLong();
             //TestDataInMemoryStruct();
             //TestValueAndReference();
+            //Complatement();
+            //UintTest();
 
-            Complatement();
-
-            UintTest();
+            TestAttribute();
         }
 
         #region int和long在计算机中的表示
@@ -138,6 +141,7 @@ namespace CSAPPLearn.Topic1
 
         //正数的补码是本身，负数的补码是  原码除符号位取反再+1
         public static void Complatement()
+        
         {
             int result = -3 << 1;
             
@@ -157,5 +161,26 @@ namespace CSAPPLearn.Topic1
             int result = x.CompareTo(y);
             List<int> lx = new List<int>();
         }
+
+        public static void TestAttribute()
+        {
+            Type x = typeof(NumInComputer);
+            object[] attrs = x.GetCustomAttributes(typeof(XHWTestAttribute), false);
+            foreach (var attrData in attrs)
+            {
+                XHWTestAttribute xhwTestAttribute = attrData as XHWTestAttribute;
+                if (xhwTestAttribute != null)
+                {
+                    Console.WriteLine($"XHW age = {xhwTestAttribute.age}, name = {xhwTestAttribute.name}");
+                }
+            }
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.Class, Inherited = true)]
+    public class XHWTestAttribute : Attribute
+    {
+        public int age;
+        public string name;
     }
 }
