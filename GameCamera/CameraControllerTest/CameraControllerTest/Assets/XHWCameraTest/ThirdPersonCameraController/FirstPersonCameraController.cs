@@ -1,7 +1,7 @@
 ﻿/******************************************************************************
 * Created by: XuHongWei
 * Date: 2022-07-11 15:40:07
-* Des: 
+* Des: https://www.bilibili.com/video/BV1nE411b7X8/?spm_id_from=333.788.recommend_more_video.5&vd_source=248865c4a2cf1a36ae85f642db9d8c41
 *******************************************************************************/
 
 using System;
@@ -17,7 +17,7 @@ public class FirstPersonCameraController: MonoBehaviour
 
     public void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void LateUpdate()
