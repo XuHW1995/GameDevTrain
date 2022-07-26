@@ -1,10 +1,12 @@
 ﻿/******************************************************************************
 * Created by: XuHongWei
-* Date: 2022-07-25 17:27:00
+* Date: 2022-07-26 15:19:47
 * Des: 
 *******************************************************************************/
 
-public class OdinAttributeTest
+using UnityEngine;
+
+public class TestMono2Father:MonoBehaviour
 {
-    
+    public int testMono2FatherIntValue;
 }
