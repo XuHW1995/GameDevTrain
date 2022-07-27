@@ -12,7 +12,7 @@ using UnityEngine;
 public class TestMono1: SerializedMonoBehaviour
 {
     public int x;
-    
-    [NonSerialized, OdinSerialize]
+    //
+    // [NonSerialized, OdinSerialize]
     public TestMono2 Mono2;
 }
