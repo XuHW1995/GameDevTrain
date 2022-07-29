@@ -14,5 +14,6 @@ public class TestMono1: SerializedMonoBehaviour
     public int x;
     //
     // [NonSerialized, OdinSerialize]
+    [ShowInInspector]
     public TestMono2 Mono2;
 }

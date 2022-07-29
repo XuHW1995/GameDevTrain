@@ -33,6 +33,29 @@ public class TestSerializedObj: MonoBehaviour
     public PlayerData playerData = new PlayerData();
     public string dataPath;
 
+    [ShowInInspector]
+    private int _testIntField;
+
+    
+    [ShowInInspector]
+    [OnValueChanged("testIntFieldValueChange")]
+    public int testIntField
+    {
+        get
+        {
+            return _testIntField;
+        }
+        set
+        {
+            _testIntField = value;
+        }
+    }
+
+    public void testIntFieldValueChange()
+    {
+        Debug.Log("testIntField 值改变，改为" + testIntField);
+    }
+    
     public void Awake()
     {
         dataPath = Application.dataPath + "/";
