@@ -1,13 +1,12 @@
 ﻿/******************************************************************************
 * Created by: XuHongWei
-* Date: 2022-07-26 15:19:47
+* Date: 2022-07-27 11:55:54
 * Des: 
 *******************************************************************************/
 
-using Sirenix.OdinInspector;
-using UnityEngine;
+using System;
 
-public class TestMono2Father: SerializedMonoBehaviour
+public class TestHealthDrawerAttribute : Attribute
 {
-    public int testMono2FatherIntValue;
+    
 }
