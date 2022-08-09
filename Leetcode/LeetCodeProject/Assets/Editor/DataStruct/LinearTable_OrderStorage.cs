@@ -4,6 +4,8 @@
 * Des: 自定义线性表，顺序存储
 *******************************************************************************/
 
+using System.Collections.Generic;
+
 public class LinearTable<TItem>
 {
     private TItem[] _items;
