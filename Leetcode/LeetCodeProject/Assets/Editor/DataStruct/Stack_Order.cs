@@ -1,10 +1,12 @@
 /******************************************************************************
 * Created by: XuHongWei
-* Date: 2022-08-09 22:49:40
-* Des: 线性表，链式存储
+* Date: 2022-08-15 20:31:52
+* Des: 堆栈，顺序存储
 *******************************************************************************/
 
-public class LinearTable_LinkedStorage
+using System.Collections.Generic;
+
+public class Stack_OrderStorage
 {
-    
+    private Stack<int> s;
 }
