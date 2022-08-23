@@ -13,8 +13,14 @@ public class BinaryTreeNode
 
 public class BinaryTree_Linked
 {
+
     public static BinaryTree_Linked CreatEmptyTree()
     {
         return null;
+    }
+
+    public void ForeachTree()
+    {
+        
     }
 }
