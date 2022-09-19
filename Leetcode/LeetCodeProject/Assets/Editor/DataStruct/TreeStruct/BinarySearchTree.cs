@@ -10,4 +10,14 @@ public class BinarySearchTree
     {
         return null;
     }
+
+    public BinaryTreeNode FindMin()
+    {
+        return null;
+    }
+
+    public BinaryTreeNode FindMax()
+    {
+        return null;
+    }
 }
