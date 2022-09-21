@@ -28,5 +28,10 @@ namespace MoveAndRotateTest
             Vector3 projectOnPlaneXY = Vector3.ProjectOnPlane(lineA, planXYNormalVector);
             Gizmos.DrawLine(Vector3.zero, projectOnPlaneXY);
         }
+
+        public void TestRotate()
+        {
+            transform.Rotate(1,1,1);
+        }
     }
 }
