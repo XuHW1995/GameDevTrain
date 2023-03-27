@@ -24,6 +24,9 @@
     {
         Pass
         {
+            //声明pass名字是XHWTestPass
+            Name "XHWTestPass"
+            
             CGPROGRAM
             //顶点着色函数声明
             #pragma vertex vert

@@ -11,6 +11,7 @@
 
         Pass
         {
+            Name "XHWTestFragmentShader"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
