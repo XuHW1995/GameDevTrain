@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0dd8cc867b1af48a0e646895db3808, type: 3}
+  m_Name: LearnVcm Noise Profile
+  m_EditorClassIdentifier: 
+  PositionNoise:
+  - X:
+      Frequency: 2
+      Amplitude: 1
+      Constant: 1
+    Y:
+      Frequency: 2
+      Amplitude: 1
+      Constant: 1
+    Z:
+      Frequency: 4.51
+      Amplitude: 3.02
+      Constant: 1
+  - X:
+      Frequency: 1.83
+      Amplitude: 1.83
+      Constant: 1
+    Y:
+      Frequency: 2.06
+      Amplitude: 3.18
+      Constant: 1
+    Z:
+      Frequency: 0.78
+      Amplitude: -3
+      Constant: 1
+  - X:
+      Frequency: 1.25
+      Amplitude: 1.38
+      Constant: 1
+    Y:
+      Frequency: 2.88
+      Amplitude: 1.72
+      Constant: 1
+    Z:
+      Frequency: 1.98
+      Amplitude: 2.28
+      Constant: 1
+  OrientationNoise:
+  - X:
+      Frequency: 2
+      Amplitude: 1
+      Constant: 1
+    Y:
+      Frequency: 2
+      Amplitude: 1
+      Constant: 1
+    Z:
+      Frequency: 2
+      Amplitude: 1
+      Constant: 1

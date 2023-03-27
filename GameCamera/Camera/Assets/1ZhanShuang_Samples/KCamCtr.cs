@@ -157,7 +157,10 @@ public class KCamCtr : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Enemy = EnemyGroupMgr.instance.GetOneEnemy();
+            if (EnemyGroupMgr.instance != null)
+            {
+                Enemy = EnemyGroupMgr.instance.GetOneEnemy();
+            }
             
             CharCtr.SetState(CharCtr.EState.Atk);
             Enemy.SetState( CharCtr.EState.Hurt);
@@ -174,9 +177,13 @@ public class KCamCtr : MonoBehaviour
             */
             
             this.Target = Enemy.middle;
-            AimGroup.m_Targets[0].target = Enemy.middle;
 
-            followGroup.m_Targets[0].target = Enemy.middle;
+            if (EnemyGroupMgr.instance != null)
+            {
+                AimGroup.m_Targets[0].target = Enemy.middle;
+                followGroup.m_Targets[0].target = Enemy.middle;
+            }
+
             // TPS to Lock 
 
             SwitchCamToTPS( false );
