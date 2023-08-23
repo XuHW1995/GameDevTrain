@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - box
+  - sphere
+  - moving
+  - enemy
+  - friend
+  - device
+  - inventory
+  - vehicle
+  - SurfaceToClimb
   layers:
   - Default
   - TransparentFX
@@ -14,24 +23,24 @@ TagManager:
   - 
   - 
   - 
+  - gravityObjects
+  - Armor Surface
+  - turrets
+  - player
+  - radar
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Scanner
+  - vehicle
+  - inventory
+  - npc
+  - weapons
+  - device
+  - Terrain
+  - Point&Click
+  - Dynamic Split Screen
+  - Transparent Mesh
   - 
   - 
   - 

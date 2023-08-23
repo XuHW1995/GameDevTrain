@@ -1,0 +1,1885 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1574529738025404}
+  m_IsPrefabParent: 1
+--- !u!1 &1037671158482454
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4977856406989472}
+  m_Layer: 0
+  m_Name: 008
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1045033290206536
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4286108042779688}
+  - component: {fileID: 114280850704321178}
+  m_Layer: 2
+  m_Name: Player State On Resume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1087310054277314
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4274996340632626}
+  m_Layer: 2
+  m_Name: Waypoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1090897709769314
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4215851208179664}
+  m_Layer: 0
+  m_Name: 006
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1136143334176740
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4650657301646432}
+  m_Layer: 2
+  m_Name: Position To Look
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1177989523230286
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4756922505828282}
+  m_Layer: 2
+  m_Name: Position To Look
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1181073553708318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4016128639226976}
+  - component: {fileID: 65414391116860196}
+  - component: {fileID: 114900227313925238}
+  - component: {fileID: 114402431025679634}
+  - component: {fileID: 114858421857643816}
+  m_Layer: 2
+  m_Name: Camera Waypoint Path (With Bezier Curve)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1304412454158140
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4741386297449314}
+  m_Layer: 2
+  m_Name: Pivot Direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1308453082767252
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4700272595185328}
+  m_Layer: 0
+  m_Name: 007
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1322736903121710
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4671508374947148}
+  m_Layer: 2
+  m_Name: 001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1342786766400746
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4338481676507742}
+  m_Layer: 2
+  m_Name: Camera Direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1392097353714902
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4214341364540546}
+  m_Layer: 2
+  m_Name: 003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1472036609814462
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4647056965397880}
+  m_Layer: 2
+  m_Name: Position To Look
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1511110713120230
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4739873951721340}
+  m_Layer: 2
+  m_Name: Waypoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1571690188235118
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4591916989997322}
+  m_Layer: 2
+  m_Name: Camera Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1574529738025404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140337912603192}
+  m_Layer: 0
+  m_Name: New Cutscene, Navmesh and Resume Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1591202040080112
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4224436016006998}
+  m_Layer: 0
+  m_Name: 005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1624581335120408
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4351517764256194}
+  m_Layer: 0
+  m_Name: 010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1640125555433198
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4420560409543578}
+  - component: {fileID: 114989742773361002}
+  - component: {fileID: 65844691577157544}
+  - component: {fileID: 114113044335629630}
+  m_Layer: 2
+  m_Name: Event Trigger System To Detect Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1658930945601322
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4947382529646112}
+  m_Layer: 2
+  m_Name: Position To Look (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1681737566258126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4631684579503194}
+  m_Layer: 0
+  m_Name: Player Walk Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1686454946428020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4320786915760450}
+  - component: {fileID: 114811822436417456}
+  m_Layer: 2
+  m_Name: Follow Player Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1694698186718994
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4351110283324966}
+  m_Layer: 0
+  m_Name: 009
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1704453863046006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4103768860404640}
+  m_Layer: 2
+  m_Name: Waypoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1752366519299426
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4193267967290552}
+  - component: {fileID: 114261285490676330}
+  m_Layer: 2
+  m_Name: Player State On Pause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1776456619540684
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4623261333607336}
+  - component: {fileID: 114872597875936688}
+  m_Layer: 2
+  m_Name: Spline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1840829724018140
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4629738751848392}
+  m_Layer: 2
+  m_Name: 002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1851452361800242
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4167758760570762}
+  m_Layer: 2
+  m_Name: Position To Look (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1899448399985074
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4966497767924536}
+  m_Layer: 0
+  m_Name: 004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1925152331325776
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4142171331529370}
+  m_Layer: 2
+  m_Name: Waypoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1951677411953924
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4767591109733128}
+  m_Layer: 2
+  m_Name: Position To Look
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1960015048793052
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4822318718331772}
+  m_Layer: 2
+  m_Name: Waypoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4016128639226976
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181073553708318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.99, z: -21.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4591916989997322}
+  - {fileID: 4650657301646432}
+  - {fileID: 4756922505828282}
+  - {fileID: 4167758760570762}
+  - {fileID: 4947382529646112}
+  - {fileID: 4767591109733128}
+  - {fileID: 4338481676507742}
+  - {fileID: 4623261333607336}
+  - {fileID: 4193267967290552}
+  - {fileID: 4286108042779688}
+  - {fileID: 4320786915760450}
+  m_Father: {fileID: 4140337912603192}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4103768860404640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704453863046006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.29, y: 0, z: 21.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4420560409543578}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4140337912603192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1574529738025404}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.740995, y: -0.77, z: 82.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4016128639226976}
+  - {fileID: 4631684579503194}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4142171331529370
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1925152331325776}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.11, y: 0, z: 27.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4420560409543578}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4167758760570762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851452361800242}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.89999986, z: 4.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4193267967290552
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752366519299426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4214341364540546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392097353714902}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -38.526764, y: 19.783943, z: 59.56952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4215851208179664
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090897709769314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.692577, y: 8.562515, z: 40.296867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4224436016006998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591202040080112}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.245598, y: 11.50588, z: 61.486244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4274996340632626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087310054277314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.26, y: 0, z: 35.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4420560409543578}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4286108042779688
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045033290206536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4320786915760450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686454946428020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4647056965397880}
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4338481676507742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342786766400746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.7214601, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4741386297449314}
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4351110283324966
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694698186718994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 29.05979, y: 8.501154, z: -25.666054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4351517764256194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624581335120408}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.059999466, y: 2.7375772, z: -8.720001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4420560409543578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640125555433198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.48, z: -24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4739873951721340}
+  - {fileID: 4822318718331772}
+  - {fileID: 4142171331529370}
+  - {fileID: 4274996340632626}
+  - {fileID: 4103768860404640}
+  m_Father: {fileID: 4631684579503194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4591916989997322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571690188235118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4671508374947148}
+  - {fileID: 4629738751848392}
+  - {fileID: 4214341364540546}
+  - {fileID: 4966497767924536}
+  - {fileID: 4224436016006998}
+  - {fileID: 4215851208179664}
+  - {fileID: 4700272595185328}
+  - {fileID: 4977856406989472}
+  - {fileID: 4351110283324966}
+  - {fileID: 4351517764256194}
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4623261333607336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776456619540684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4629738751848392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840829724018140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -37.53689, y: 17.368761, z: 27.276726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4631684579503194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681737566258126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4420560409543578}
+  m_Father: {fileID: 4140337912603192}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4647056965397880
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472036609814462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4320786915760450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4650657301646432
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136143334176740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.9, z: 27.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4671508374947148
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1322736903121710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -32.78505, y: 0, z: 6.316887}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4700272595185328
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1308453082767252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 44.17517, y: 8.610371, z: 7.8899765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4739873951721340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511110713120230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4420560409543578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4741386297449314
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304412454158140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4338481676507742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4756922505828282
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177989523230286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.23, y: -0.15, z: 41.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4767591109733128
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951677411953924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14, y: 1.9783943, z: -0.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4822318718331772
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1960015048793052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.81, y: 0, z: 14.48}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4420560409543578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4947382529646112
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1658930945601322}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.89999986, z: 4.3000007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016128639226976}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4966497767924536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1899448399985074}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5715866, y: 10.3594055, z: 63.93151}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4977856406989472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037671158482454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.494453, y: 13.70863, z: -18.184082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591916989997322}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65414391116860196
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181073553708318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.91, y: 3.13, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65844691577157544
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640125555433198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114113044335629630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640125555433198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a1051b87ee264a819a3cb2458cdbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateNavmesh: 1
+  navmeshTargetTransform: {fileID: 0}
+  useWaypointList: 1
+  waypointList:
+  - {fileID: 4739873951721340}
+  - {fileID: 4822318718331772}
+  - {fileID: 4142171331529370}
+  - {fileID: 4274996340632626}
+  - {fileID: 4103768860404640}
+  mainRemotePlayerNavmeshOverride: {fileID: 0}
+--- !u!114 &114261285490676330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752366519299426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changePlayerStatesEnabled: 1
+  disableTriggerAfterEnter: 0
+  changePlayerMode: 0
+  playerModeName: 
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setNewDefaultThirdPersonCameraState: 0
+  newDefaultThirdPersonCameraStateName: 
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setCameraStateName: 0
+  cameraStateName: 
+  resetCameraRotationState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 0
+  drawCurrentWeapon: 0
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 1
+  setCarryWeaponOnLowerPositionState: 0
+  carryWeaponOnLowerPositionState: 0
+  setCanFireWeaponsState: 0
+  canFireWeaponsState: 0
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 0
+  lookAtPointState: 0
+  pointToLook: {fileID: 0}
+  useDurationToLookAtPoint: 0
+  durationToLookAtPoint: 0
+  enableLookAtPointStateAfterDuration: 0
+  setLookAtPointSpeed: 0
+  lookAtPointSpeed: 0
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setUseLookTargetIconState: 0
+  useLookTargetIconState: 0
+  setOriginalUseLookTargetIconState: 0
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setTransparentSurfaceDetectionState: 0
+  transparentSurfaceDetectionState: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 0
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 0
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setPlayerStatusID: 0
+  playerStatusID: 0
+  setOriginalPlayerStatusID: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  activateRagdollState: 0
+  ragdollPushDirection: {fileID: 0}
+  ragdollPushForceAmount: 0
+  setAbility: 0
+  abilityNameToSet: 
+  useAbilitiesListToEnable: 0
+  abilitiesListToEnable: []
+  useAbilitiesListToDisable: 0
+  abilitiesListToDisable: []
+  setCurrentPower: 0
+  currentPowerName: 
+  setCompassEnableValue: 0
+  compassEnabledValue: 0
+  useRemoteEventOnObjectsFound: 0
+  removeEventNameList: []
+  useEventOnTrigger: 1
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114402431025679634}
+        m_MethodName: pauseOrPlayPlayerComponents
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 1
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114402431025679634}
+        m_MethodName: getCurrentPlayer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 1
+--- !u!114 &114280850704321178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045033290206536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changePlayerStatesEnabled: 1
+  disableTriggerAfterEnter: 0
+  changePlayerMode: 0
+  playerModeName: 
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setNewDefaultThirdPersonCameraState: 0
+  newDefaultThirdPersonCameraStateName: 
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setCameraStateName: 0
+  cameraStateName: 
+  resetCameraRotationState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 1
+  drawCurrentWeapon: 1
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 0
+  setCarryWeaponOnLowerPositionState: 0
+  carryWeaponOnLowerPositionState: 0
+  setCanFireWeaponsState: 0
+  canFireWeaponsState: 0
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 0
+  lookAtPointState: 0
+  pointToLook: {fileID: 0}
+  useDurationToLookAtPoint: 0
+  durationToLookAtPoint: 0
+  enableLookAtPointStateAfterDuration: 0
+  setLookAtPointSpeed: 0
+  lookAtPointSpeed: 0
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setUseLookTargetIconState: 0
+  useLookTargetIconState: 0
+  setOriginalUseLookTargetIconState: 0
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setTransparentSurfaceDetectionState: 0
+  transparentSurfaceDetectionState: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 0
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 0
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setPlayerStatusID: 0
+  playerStatusID: 0
+  setOriginalPlayerStatusID: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  activateRagdollState: 0
+  ragdollPushDirection: {fileID: 0}
+  ragdollPushForceAmount: 0
+  setAbility: 0
+  abilityNameToSet: 
+  useAbilitiesListToEnable: 0
+  abilitiesListToEnable: []
+  useAbilitiesListToDisable: 0
+  abilitiesListToDisable: []
+  setCurrentPower: 0
+  currentPowerName: 
+  setCompassEnableValue: 0
+  compassEnabledValue: 0
+  useRemoteEventOnObjectsFound: 0
+  removeEventNameList: []
+  useEventOnTrigger: 1
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114113044335629630}
+        m_MethodName: disableRemoteNavmesh
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 0
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 1
+--- !u!114 &114402431025679634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181073553708318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e963d1ecb2c6aa479602abcd95ec639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  searchPlayerOnSceneIfNotAssigned: 1
+  assignPlayerManually: 0
+  currentPlayer: {fileID: 0}
+  playerCameraGameObject: {fileID: 0}
+  unlockCursor: 0
+  resumePlayerAfterDelay: 0
+  delayToResumePlayer: 0
+  activatePlayerMeshModel: 1
+  pauseEscapeMenu: 0
+  cameraIsMoved: 1
+  resetCameraPositionSpeed: 3
+  setCameraDirectionAtEnd: 1
+  cameraDirection: {fileID: 4338481676507742}
+  pivotDirection: {fileID: 4741386297449314}
+  setNewCameraParent: 0
+  newCameraParent: {fileID: 0}
+  disableSecondaryPlayerHUD: 0
+  disableAllPlayerHUD: 1
+  disableTouchControls: 1
+  disableDynamiUIElements: 0
+  playerComponentsPaused: 0
+  useEventOnPause: 1
+  eventOnPause:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114858421857643816}
+        m_MethodName: checkMovementCoroutine
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 114811822436417456}
+        m_MethodName: setEnabledState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventToSendCamera:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114858421857643816}
+        m_MethodName: setCurrentCameraTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnResume: 1
+  eventOnResume:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114280850704321178}
+        m_MethodName: changePlayerState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114811822436417456}
+        m_MethodName: setEnabledState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114811822436417456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686454946428020}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ceb6c90a67d825418766c477c318629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObjectActive: 1
+  objectToFollow: {fileID: 0}
+  followPosition: 1
+  followRotation: 1
+  mainTransform: {fileID: 0}
+  checkIfObjectToFollowNull: 0
+  objectToFollowLocated: 0
+  showDebugPrint: 0
+--- !u!114 &114858421857643816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181073553708318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b41a39a12e974a4cbed96893647e2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCameraTransform: {fileID: 0}
+  waypointList:
+  - Name: 001
+    waypointTransform: {fileID: 4671508374947148}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 11
+    useCustomRotationSpeed: 1
+    rotationSpeed: 2
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 1
+    waitTimeBetweenPoints: 1
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 002
+    waypointTransform: {fileID: 4629738751848392}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 11
+    useCustomRotationSpeed: 1
+    rotationSpeed: 2
+    timeOnFixedPosition: 4
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 2
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 003
+    waypointTransform: {fileID: 4214341364540546}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 10
+    useCustomRotationSpeed: 1
+    rotationSpeed: 3
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 1
+    waitTimeBetweenPoints: 2
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 004
+    waypointTransform: {fileID: 4966497767924536}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 7
+    useCustomRotationSpeed: 0
+    rotationSpeed: 0
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 005
+    waypointTransform: {fileID: 4224436016006998}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 7
+    useCustomRotationSpeed: 0
+    rotationSpeed: 0
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 006
+    waypointTransform: {fileID: 4215851208179664}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 5
+    useCustomRotationSpeed: 0
+    rotationSpeed: 0
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 007
+    waypointTransform: {fileID: 4700272595185328}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 5
+    useCustomRotationSpeed: 0
+    rotationSpeed: 0
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 008
+    waypointTransform: {fileID: 4977856406989472}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 5
+    useCustomRotationSpeed: 0
+    rotationSpeed: 4
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 009
+    waypointTransform: {fileID: 4351110283324966}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 5
+    useCustomRotationSpeed: 0
+    rotationSpeed: 4
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Name: 010
+    waypointTransform: {fileID: 4351517764256194}
+    rotateCameraToNextWaypoint: 1
+    usePointToLook: 1
+    pointToLook: {fileID: 4647056965397880}
+    smoothTransitionToNextPoint: 1
+    useCustomMovementSpeed: 1
+    movementSpeed: 5
+    useCustomRotationSpeed: 0
+    rotationSpeed: 3
+    timeOnFixedPosition: 0
+    useCustomWaitTimeBetweenPoint: 0
+    waitTimeBetweenPoints: 0
+    useEventOnPointReached: 0
+    eventOnPointReached:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  waitTimeBetweenPoints: 0
+  movementSpeed: 18
+  rotationSpeed: 4
+  pointToLook: {fileID: 0}
+  useEventOnEnd: 1
+  eventOnEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114402431025679634}
+        m_MethodName: resetCameraPosition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  showGizmo: 1
+  gizmoLabelColor: {r: 0, g: 0, b: 0, a: 1}
+  gizmoRadius: 0.78
+  useHandleForWaypoints: 0
+  handleRadius: 3.03
+  handleGizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  showWaypointHandles: 1
+  currentMovementSpeed: 0
+  currentRotationSpeed: 0
+  useBezierCurve: 1
+  spline: {fileID: 114872597875936688}
+  bezierDuration: 2
+  useExternalProgress: 0
+  snapCameraToFirstSplinePoint: 0
+  searchPlayerOnSceneIfNotAssigned: 1
+--- !u!114 &114872597875936688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776456619540684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e305511e07ef2143ae2d55c0e69b33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splinePointList: []
+  lookDirectionList: []
+  selectedIndex: 27
+  directionScale: 0.5
+  newPointOffset: 2
+  newPointBezierOffset: 2
+  handleSize: 0.07
+  pickSize: 0.06
+  showGizmo: 1
+  showLookDirectionGizmo: 0
+  lookDirectionGizmoRadius: 0.05
+  lookDirectionArrowLength: 1
+  points:
+  - {x: -0.053215027, y: -2.2511053, z: -0.46934843}
+  - {x: -9.068445, y: -2.2511053, z: -1.6336355}
+  - {x: -23.501316, y: -2.2511053, z: 1.3571129}
+  - {x: -30.949965, y: -2.2511053, z: 5.4924626}
+  - {x: -36.805008, y: -2.2511053, z: 8.7430725}
+  - {x: -37.390434, y: 14.652665, z: 15.63447}
+  - {x: -37.62435, y: 14.652665, z: 26.884962}
+  - {x: -38.025543, y: 14.652665, z: 46.18068}
+  - {x: -41.71493, y: 17.2761, z: 57.31648}
+  - {x: -38.660275, y: 17.2761, z: 59.835155}
+  - {x: -27.506763, y: 17.2761, z: 69.03163}
+  - {x: -5.6325912, y: 8.466336, z: 65.774796}
+  - {x: 0.17630386, y: 8.466336, z: 64.18909}
+  - {x: 5.409256, y: 8.466336, z: 62.760597}
+  - {x: 39.571342, y: 9.056998, z: 67.28569}
+  - {x: 40.837395, y: 9.056998, z: 61.72492}
+  - {x: 41.504673, y: 9.056998, z: 58.794086}
+  - {x: 41.25757, y: 5.9786596, z: 45.596737}
+  - {x: 41.01404, y: 5.9786596, z: 40.165413}
+  - {x: 40.694187, y: 5.9786596, z: 33.031727}
+  - {x: 44.245335, y: 6.095195, z: 18.01117}
+  - {x: 44.30917, y: 6.095195, z: 7.833721}
+  - {x: 44.361393, y: 6.095195, z: -0.49228096}
+  - {x: 49.601364, y: 11.467887, z: -13.867523}
+  - {x: 45.70375, y: 11.467887, z: -18.004486}
+  - {x: 39.07313, y: 11.467887, z: -25.042288}
+  - {x: 36.64253, y: 6.0928907, z: -25.998713}
+  - {x: 28.976639, y: 6.0928907, z: -25.268665}
+  - {x: 23.971869, y: 6.0928907, z: -24.792046}
+  - {x: -0.19197464, y: -0.5410336, z: -16.92529}
+  - {x: -0.11158943, y: -0.5410336, z: -8.57489}
+  modes: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  loop: 0
+--- !u!114 &114900227313925238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181073553708318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: Change Player State
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: setCurrentPlayer
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114261285490676330}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114280850704321178}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114261285490676330}
+          m_MethodName: changePlayerState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114989742773361002}
+          m_MethodName: activateEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  enterEventList: []
+  exitEventList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 1
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 0
+  generalDelay: 0
+  useRandomDelay: 0
+  randomDelayRange: {x: 0, y: 0}
+  triggerEventType: 0
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0
+--- !u!114 &114989742773361002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640125555433198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 3
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 0
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 0
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114113044335629630}
+          m_MethodName: setRemoteNavmeshState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  enterEventList: []
+  exitEventList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 1
+  callFunctionEveryTimeTriggered: 1
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 0
+  generalDelay: 0
+  useRandomDelay: 0
+  randomDelayRange: {x: 0, y: 0}
+  triggerEventType: 0
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0

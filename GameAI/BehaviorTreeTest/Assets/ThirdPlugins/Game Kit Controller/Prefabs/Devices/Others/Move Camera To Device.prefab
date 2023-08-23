@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1852641790301818}
+  m_IsPrefabParent: 1
+--- !u!1 &1455627902516162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4636421844174304}
+  m_Layer: 2
+  m_Name: Camera Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1852641790301818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4747214418709896}
+  - component: {fileID: 114127966176138038}
+  - component: {fileID: 114999909912014444}
+  - component: {fileID: 114905020953259294}
+  - component: {fileID: 135827613874375518}
+  - component: {fileID: 82843126309432670}
+  - component: {fileID: 114873986571050796}
+  m_Layer: 2
+  m_Name: Move Camera To Device
+  m_TagString: device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4636421844174304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455627902516162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4747214418709896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4747214418709896
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.61, y: 0.74, z: 9.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4636421844174304}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82843126309432670
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114127966176138038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8030885d591eb408518d093fad5d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOnlyForTrigger: 0
+  functionToSetPlayer: 
+  activateDeviceOnTriggerEnter: 0
+  useFreeInteraction: 0
+  useFreeInteractionEvent: 0
+  freeInteractionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useMoveCameraToDevice: 1
+  disableDeviceWhenStopUsing: 0
+  stopUsingDeviceWhenUnlock: 1
+  disableAndRemoveDeviceWhenUnlock: 0
+  functionToUseDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usingDevice: 0
+  unlockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  lockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  currentPlayer: {fileID: 0}
+  activateEventOnTriggerStay: 0
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnTriggerStayRate: 0
+  activateEventOnTriggerEnter: 0
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  activateEventOnTriggerExit: 0
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnTriggerEnter: 0
+  eventToSendPlayerOnTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sendPlayerOnTriggerExit: 0
+  eventToSendPlayerOnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  activateEventIfUnableToUseDevice: 0
+  unableToUseDeviceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendCurrentPlayerOnEvent: 0
+  setCurrentPlayerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnStartUsingDevice: 0
+  useEventOnStopUsingDevice: 0
+  eventOnStartUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnStopUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  deviceCanBeUsed: 1
+  playerInside: 0
+  cameraMovementManager: {fileID: 0}
+  deviceMovementManager: {fileID: 0}
+  disableDeviceInteractionAfterUsingOnce: 0
+--- !u!114 &114873986571050796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ddab01b84015e4981a3f039ef51d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOutlineEnabled: 1
+  shaderOutlineWidthName: _Outline
+  shaderOutlineColorName: _OutlineColor
+  useCustomOutlineValues: 0
+  customOutlineWidth: 0.05
+  customOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useCustomShader: 0
+  customShader: {fileID: 0}
+  customActiveDuration: 2
+  useTransparencyActive: 1
+  transparencyActive: 0
+  useCustomTransparencyValues: 0
+  customAlphaTransparency: 0
+  meshParent: {fileID: 0}
+  ignoreParticles: 0
+  ignoreLineRenderer: 0
+  useMeshesToIgnore: 0
+  meshesToIgnore: []
+  useCustomMeshList: 0
+  customMeshList: []
+  outlineActive: 0
+  renderElementsStored: 0
+  outlineTemporaryActive: 0
+  rendererParts: []
+--- !u!114 &114905020953259294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Interaction
+  deviceAction: Activate
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: 
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114999909912014444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a8b31f995e2034892d0ff2804df26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraMovementActive: 1
+  cameraPosition: {fileID: 1455627902516162}
+  smoothCameraMovement: 1
+  useFixedLerpMovement: 1
+  fixedLerpMovementSpeed: 2
+  cameraMovementSpeedThirdPerson: 1
+  cameraMovementSpeedFirstPerson: 0.2
+  secondMoveCameraToDevice: 0
+  unlockCursor: 1
+  ignoreHideCursorOnClick: 0
+  setNewMouseCursorControllerSpeed: 0
+  newMouseCursroControllerSpeed: 0
+  disablePlayerMeshGameObject: 1
+  enablePlayerMeshGameObjectIfFirstPersonActive: 0
+  disableWeaponsCamera: 0
+  keepWeaponsIfCarrying: 0
+  drawWeaponsIfPreviouslyCarrying: 0
+  keepOnlyIfPlayerIsOnFirstPerson: 0
+  disableWeaponsDirectlyOnStart: 0
+  carryWeaponOnLowerPositionActive: 0
+  setPlayerCameraRotationOnExit: 0
+  playerPivotTransformThirdPerson: {fileID: 0}
+  playerCameraTransformThirdPerson: {fileID: 0}
+  playerPivotTransformFirstPerson: {fileID: 0}
+  playerCameraTransformFirstPerson: {fileID: 0}
+  alignPlayerWithCameraPositionOnStartUseDevice: 0
+  alignPlayerWithCameraPositionOnStopUseDevice: 0
+  alignPlayerWithCameraRotationOnStartUseDevice: 0
+  alignPlayerWithCameraRotationOnStopUseDevice: 0
+  customAlignPlayerTransform: {fileID: 0}
+  resetPlayerCameraDirection: 0
+  disableSecondaryPlayerHUD: 1
+  disableAllPlayerHUD: 0
+  disableTouchControls: 0
+  disableInteractionTouchButtonOnUsingDevice: 0
+  showGizmo: 0
+  gizmoRadius: 0.1
+  gizmoLabelColor: {r: 0, g: 0, b: 0, a: 1}
+  gizmoArrowLength: 0.3
+  gizmoArrowLineLength: 0.5
+  gizmoArrowAngle: 20
+  gizmoArrowColor: {r: 1, g: 1, b: 1, a: 1}
+  ignoreMoveCameraFunctionEnabled: 0
+--- !u!135 &135827613874375518
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852641790301818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.22
+  m_Center: {x: 0, y: 0, z: 0}

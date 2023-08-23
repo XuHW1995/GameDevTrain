@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1318576187877786}
+  m_IsPrefabParent: 1
+--- !u!1 &1318576187877786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4429335736600770}
+  - component: {fileID: 65735384378628714}
+  - component: {fileID: 114493628831766748}
+  - component: {fileID: 23096143842408270}
+  - component: {fileID: 33088164700287840}
+  - component: {fileID: 114829332279624662}
+  - component: {fileID: 114097437561070244}
+  - component: {fileID: 114712448802483338}
+  m_Layer: 2
+  m_Name: Swim Zone Trigger With Buoyancy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1345533052597238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4867747701778658}
+  m_Layer: 2
+  m_Name: Swim Zone Surface Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429335736600770
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.0914421, y: 8.7691, z: -14.79427}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4867747701778658}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4867747701778658
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1345533052597238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4975198, z: 0}
+  m_LocalScale: {x: 0.024501564, y: 0.026271572, z: 0.018261172}
+  m_Children: []
+  m_Father: {fileID: 4429335736600770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23096143842408270
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 01f6c48b42eb32f458764e0b797fd68d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33088164700287840
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Mesh: {fileID: 0}
+--- !u!65 &65735384378628714
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 200, y: 15.23, z: 200}
+  m_Center: {x: 100, y: -7.615, z: 100}
+--- !u!114 &114097437561070244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afcec5aaca573294e986610aa411d1e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  height: 0.2
+  noiseWalk: 0.5
+  noiseStrength: 0.1
+--- !u!114 &114493628831766748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0d41c1e184df4fa7cbe214312faf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagToCheck: Player
+  swimZoneActive: 1
+  updateSurfaceTransformDynamically: 1
+  checkVehiclesOnEnteringWater: 1
+  disableVehiclesInteractionOnEnterWater: 0
+  ejectPassengersOnVehicleOnEnterWater: 0
+  explodeVehiclesAfterXTime: 0
+  timeToExplodeVehiclesAfterXTime: 8
+  setVehicleGravityForce: 1
+  newVehicleGravityForce: 5
+  reduceVehicleSpeedOnEnterWater: 1
+  reducedVehicleSpeedMultiplier: 0.5
+  vehicleLayerToCheck:
+    serializedVersion: 2
+    m_Bits: 262144
+  checkVehiclesOnExitingWater: 1
+  useRemoteEvents: 1
+  useRemoteEventOnSwimStart: 1
+  remoteEventNameListOnSwimStart:
+  - Deactivate Fire
+  useRemoteEventOnSwimEnd: 0
+  remoteEventNameListOnSwimEnd: []
+  vehicleDetectedList: []
+  showGizmo: 0
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  gizmoRadius: 0.1
+  swimZoneTransform: {fileID: 4867747701778658}
+  mainWaterSurfaceSystem: {fileID: 114829332279624662}
+--- !u!114 &114712448802483338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ac975299a9ab24f898dc814c9263bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateFXOnEditorEnabled: 0
+  updateFXInGameEnabled: 0
+  waterMode: 2
+  disablePixelLights: 1
+  textureSize: 256
+  clipPlaneOffset: 0.07
+  reflectLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  refractLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &114829332279624662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318576187877786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef62fa15ac390d4488541838f936956e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterHeight: 15.23
+  density: 1
+  rows: 200
+  columns: 200
+  quadSegmentSize: 1
+  useCustomGravityForce: 1
+  gravityForce: {x: 0, y: -9.8, z: 0}
+  objectLayermask:
+    serializedVersion: 2
+    m_Bits: 0
+  checkObjectByTag: 1
+  tagListToCheck:
+  - box
+  checkForFloatingObjectSocketEnabled: 1
+  objectsOnWaterList: []

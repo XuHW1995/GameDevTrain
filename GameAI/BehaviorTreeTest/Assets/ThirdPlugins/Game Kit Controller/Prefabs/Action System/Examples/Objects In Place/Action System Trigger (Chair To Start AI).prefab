@@ -1,0 +1,1871 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1311193254894430}
+  m_IsPrefabParent: 1
+--- !u!1 &1036088717796016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4130267845598690}
+  - component: {fileID: 33154015379313134}
+  - component: {fileID: 23647647676865824}
+  - component: {fileID: 65398530839746520}
+  m_Layer: 0
+  m_Name: Cube (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1065489876198630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4753033777215434}
+  - component: {fileID: 33391956174855124}
+  - component: {fileID: 23711299089131640}
+  - component: {fileID: 65593913816781730}
+  m_Layer: 0
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1141142604260576
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4408755814035542}
+  - component: {fileID: 33570323786355020}
+  - component: {fileID: 23598206482769112}
+  - component: {fileID: 65040721889548186}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1148279757515790
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4110095693852206}
+  - component: {fileID: 33333988714840012}
+  - component: {fileID: 23450957235887368}
+  - component: {fileID: 65514868572923686}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1311193254894430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4676940915382910}
+  - component: {fileID: 65531859036997278}
+  - component: {fileID: 114674689250041694}
+  - component: {fileID: 114984281761576914}
+  - component: {fileID: 114030896405793676}
+  - component: {fileID: 114144922952390274}
+  m_Layer: 2
+  m_Name: Action System Trigger (Chair To Start AI)
+  m_TagString: device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1353633926741404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4171519431958298}
+  m_Layer: 0
+  m_Name: Chair Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1432370968814678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4474342293299916}
+  m_Layer: 2
+  m_Name: Device Position Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1505693039864614
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4051940270949698}
+  - component: {fileID: 33301113445889312}
+  - component: {fileID: 23000721291093044}
+  - component: {fileID: 65711168525273742}
+  m_Layer: 0
+  m_Name: leftDoor (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1569196819850990
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4337020957208246}
+  - component: {fileID: 33586278962200740}
+  - component: {fileID: 23761461311497956}
+  - component: {fileID: 65075048232840342}
+  m_Layer: 0
+  m_Name: leftDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1602349132904012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4644160849770830}
+  - component: {fileID: 114035514201589106}
+  - component: {fileID: 65493796251023380}
+  m_Layer: 2
+  m_Name: Detect Player Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1782368222176886
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4490560627449392}
+  - component: {fileID: 33033073153744380}
+  - component: {fileID: 23093927293782992}
+  - component: {fileID: 65336222612595888}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1829539155768950
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4102927469331274}
+  m_Layer: 2
+  m_Name: Position To Look
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1849802519434278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250044245542998}
+  m_Layer: 2
+  m_Name: Match Target Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1892219365270160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4285140365761872}
+  - component: {fileID: 114124360099687506}
+  m_Layer: 2
+  m_Name: Change Player State
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1984149285546648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4371685339105132}
+  m_Layer: 2
+  m_Name: Player Target Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4051940270949698
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505693039864614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.23462601, z: -0.021701813}
+  m_LocalScale: {x: 0.301784, y: 0.43112874, z: 0.042071898}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4102927469331274
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829539155768950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4285140365761872}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4110095693852206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1148279757515790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15494013, y: -0.76724, z: -0.013931274}
+  m_LocalScale: {x: 0.07199227, y: 0.45885748, z: 0.05751}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4130267845598690
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036088717796016}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15494013, y: -0.76724, z: 0.3179245}
+  m_LocalScale: {x: 0.07199, y: 0.45885998, z: 0.05751}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4171519431958298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353633926741404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4408755814035542}
+  - {fileID: 4337020957208246}
+  - {fileID: 4110095693852206}
+  - {fileID: 4490560627449392}
+  - {fileID: 4753033777215434}
+  - {fileID: 4130267845598690}
+  - {fileID: 4051940270949698}
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4250044245542998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849802519434278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4285140365761872
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1892219365270160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4102927469331274}
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4337020957208246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569196819850990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.49400002, z: 0.15200043}
+  m_LocalScale: {x: 0.38186544, y: 0.08761936, z: 0.38936913}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4371685339105132
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984149285546648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.089}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4408755814035542
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141142604260576}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.045, z: -0.027000427}
+  m_LocalScale: {x: 0.18096, y: 0.14395, z: 0.057509985}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4474342293299916
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1432370968814678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.859, z: -0.036999702}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4490560627449392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782368222176886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15494013, y: -0.76724, z: 0.3179283}
+  m_LocalScale: {x: 0.07199, y: 0.45885998, z: 0.05751}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4644160849770830
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602349132904012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.02, z: 0}
+  m_LocalScale: {x: 18.141975, y: 18.141966, z: 18.141966}
+  m_Children: []
+  m_Father: {fileID: 4676940915382910}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4676940915382910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.02, y: 0, z: -29.66}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4171519431958298}
+  - {fileID: 4371685339105132}
+  - {fileID: 4474342293299916}
+  - {fileID: 4285140365761872}
+  - {fileID: 4250044245542998}
+  - {fileID: 4644160849770830}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4753033777215434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1065489876198630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15494013, y: -0.76724, z: -0.013938904}
+  m_LocalScale: {x: 0.07199, y: 0.45885998, z: 0.05751}
+  m_Children: []
+  m_Father: {fileID: 4171519431958298}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23000721291093044
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505693039864614}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c417f9613e701c84b8dd7781115311fc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23093927293782992
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782368222176886}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23450957235887368
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1148279757515790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23598206482769112
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141142604260576}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23647647676865824
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036088717796016}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23711299089131640
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1065489876198630}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23761461311497956
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569196819850990}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c417f9613e701c84b8dd7781115311fc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33033073153744380
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782368222176886}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33154015379313134
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036088717796016}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33301113445889312
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505693039864614}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33333988714840012
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1148279757515790}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33391956174855124
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1065489876198630}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33570323786355020
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141142604260576}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33586278962200740
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569196819850990}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65040721889548186
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141142604260576}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65075048232840342
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569196819850990}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.00000023841858, z: 0}
+--- !u!65 &65336222612595888
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782368222176886}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65398530839746520
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036088717796016}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65493796251023380
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602349132904012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65514868572923686
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1148279757515790}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.0000038146973, y: 0, z: 0}
+--- !u!65 &65531859036997278
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 2, z: 0.7536192}
+  m_Center: {x: 0, y: 1, z: 0.6231904}
+--- !u!65 &65593913816781730
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1065489876198630}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65711168525273742
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505693039864614}
+  m_Material: {fileID: 13400000, guid: ae51c2b8a2d62f74a917726ce1c0af2c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.00000023841858, z: 0}
+--- !u!114 &114030896405793676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8030885d591eb408518d093fad5d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOnlyForTrigger: 1
+  functionToSetPlayer: 
+  activateDeviceOnTriggerEnter: 0
+  useFreeInteraction: 0
+  useFreeInteractionEvent: 0
+  freeInteractionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useMoveCameraToDevice: 0
+  disableDeviceWhenStopUsing: 0
+  stopUsingDeviceWhenUnlock: 0
+  disableAndRemoveDeviceWhenUnlock: 0
+  functionToUseDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usingDevice: 0
+  unlockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  lockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  currentPlayer: {fileID: 0}
+  activateEventOnTriggerStay: 0
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnTriggerStayRate: 0
+  activateEventOnTriggerEnter: 0
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  activateEventOnTriggerExit: 0
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnTriggerEnter: 0
+  eventToSendPlayerOnTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sendPlayerOnTriggerExit: 0
+  eventToSendPlayerOnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  activateEventIfUnableToUseDevice: 0
+  unableToUseDeviceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendCurrentPlayerOnEvent: 1
+  setCurrentPlayerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114124360099687506}
+        m_MethodName: setCurrentPlayer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnStartUsingDevice: 0
+  useEventOnStopUsingDevice: 0
+  eventOnStartUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnStopUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  deviceCanBeUsed: 1
+  playerInside: 0
+  cameraMovementManager: {fileID: 0}
+  deviceMovementManager: {fileID: 0}
+  disableDeviceInteractionAfterUsingOnce: 0
+--- !u!114 &114035514201589106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602349132904012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 0
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 0
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114984281761576914}
+          m_MethodName: inputPlayCurrentAnimationWithoutCheckingIfExistsOnaDeviceList
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  enterEventList: []
+  exitEventList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 0
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 0
+  generalDelay: 0
+  useRandomDelay: 0
+  randomDelayRange: {x: 0, y: 0}
+  triggerEventType: 0
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0
+--- !u!114 &114124360099687506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1892219365270160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changePlayerStatesEnabled: 0
+  disableTriggerAfterEnter: 0
+  changePlayerMode: 0
+  playerModeName: 
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setNewDefaultThirdPersonCameraState: 0
+  newDefaultThirdPersonCameraStateName: 
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setCameraStateName: 0
+  cameraStateName: 
+  resetCameraRotationState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 0
+  drawCurrentWeapon: 0
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 0
+  setCarryWeaponOnLowerPositionState: 0
+  carryWeaponOnLowerPositionState: 0
+  setCanFireWeaponsState: 0
+  canFireWeaponsState: 0
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 1
+  lookAtPointState: 1
+  pointToLook: {fileID: 4102927469331274}
+  useDurationToLookAtPoint: 1
+  durationToLookAtPoint: 4
+  enableLookAtPointStateAfterDuration: 1
+  setLookAtPointSpeed: 1
+  lookAtPointSpeed: 0.5
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setUseLookTargetIconState: 1
+  useLookTargetIconState: 0
+  setOriginalUseLookTargetIconState: 1
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setTransparentSurfaceDetectionState: 0
+  transparentSurfaceDetectionState: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 0
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 0
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setPlayerStatusID: 0
+  playerStatusID: 0
+  setOriginalPlayerStatusID: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  activateRagdollState: 0
+  ragdollPushDirection: {fileID: 0}
+  ragdollPushForceAmount: 0
+  setAbility: 0
+  abilityNameToSet: 
+  useAbilitiesListToEnable: 0
+  abilitiesListToEnable: []
+  useAbilitiesListToDisable: 0
+  abilitiesListToDisable: []
+  setCurrentPower: 0
+  currentPowerName: 
+  setCompassEnableValue: 0
+  compassEnabledValue: 0
+  useRemoteEventOnObjectsFound: 0
+  removeEventNameList: []
+  useEventOnTrigger: 0
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 0
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 1
+--- !u!114 &114144922952390274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Chair
+  deviceAction: Sit
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: Get Up
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 1
+  transformForStringAction: {fileID: 4474342293299916}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 1
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 20
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 1
+  customIconButtonInfoName: Simple
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114674689250041694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList: []
+  enterEventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114984281761576914}
+          m_MethodName: setPlayerActionActive
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  exitEventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114984281761576914}
+          m_MethodName: setPlayerActionDeactivate
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 1
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 0
+  generalDelay: 0
+  useRandomDelay: 0
+  randomDelayRange: {x: 0, y: 0}
+  triggerEventType: 2
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0
+--- !u!114 &114984281761576914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311193254894430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1db0794fd4b9e4ebf007f9e3afdf44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useMinDistanceToActivateAction: 0
+  minDistanceToActivateAction: 1
+  useMinAngleToActivateAction: 0
+  minAngleToActivateAction: 20
+  checkOppositeAngle: 0
+  canStopPreviousAction: 0
+  canForceToPlayCustomAction: 0
+  currentActionInfoIndex: 0
+  actionInfoList:
+  - Name: Sit On Chair Idle
+    useActionName: 1
+    actionName: Sit On Chair Idle
+    useActionID: 0
+    actionID: 21
+    removeActionIDValueImmediately: 0
+    useCrossFadeAnimation: 1
+    pausePlayerActionsInput: 1
+    pausePlayerMovementInput: 1
+    resetPlayerMovementInput: 0
+    resetPlayerMovementInputSmoothly: 0
+    removePlayerMovementInputValues: 0
+    enablePlayerCanMoveAfterAction: 0
+    allowDownVelocityDuringAction: 0
+    pauseInteractionButton: 0
+    pauseInputListDuringActionActive: 0
+    ignorePauseInputListDuringAction: 0
+    pausePlayerCameraRotationInput: 0
+    pausePlayerCameraActionsInput: 0
+    pausePlayerCameraViewChange: 1
+    pausePlayerCameraMouseWheel: 1
+    disableHeadBob: 1
+    pauseHeadBob: 1
+    ignoreCameraDirectionOnMovement: 0
+    ignoreCameraDirectionOnStrafeMovement: 0
+    pauseStrafeState: 1
+    useNewCameraStateOnActionStart: 0
+    newCameraStateNameOnActionStart: 
+    setPreviousCameraStateOnActionEnd: 0
+    useNewCameraStateOnActionEnd: 0
+    newCameraStateNameOnActionEnd: 
+    ignorePivotCameraCollision: 0
+    disablePlayerGravity: 1
+    disablePlayerOnGroundState: 0
+    disablePlayerCollider: 1
+    disablePlayerColliderComponent: 0
+    enablePlayerColliderComponentOnActionEnd: 0
+    ignoreSetLastTimeFallingOnActionEnd: 0
+    reloadMainColliderOnCharacterOnActionEnd: 0
+    changePlayerColliderScale: 0
+    disableIKOnHands: 1
+    disableIKOnFeet: 1
+    pauseHeadTrack: 1
+    setNoFrictionOnCollider: 1
+    forceRootMotionDuringAction: 1
+    actionCanHappenOnAir: 0
+    jumpCanResumePlayer: 0
+    useMovementInput: 0
+    useInteractionButtonToActivateAnimation: 0
+    animationTriggeredByExternalEvent: 0
+    resumePlayerAfterAction: 0
+    increaseActionIndexAfterComplete: 1
+    waitForNextPlayerInteractionButtonPress: 1
+    stayInState: 0
+    resetActionIndexAfterComplete: 0
+    animationDuration: 1
+    animationSpeed: 1
+    actionDurationOnFirstPerson: 1
+    actionUsesMovement: 0
+    adjustRotationDuringMovement: 0
+    delayToPlayAnimation: 0
+    usePositionToAdjustPlayer: 0
+    positionToAdjustPlayer: {fileID: 0}
+    adjustPlayerPositionSpeed: 0
+    movePlayerOnDirection: 0
+    movePlayerOnDirectionRaycastDistance: 0
+    movePlayerOnDirectionSpeed: 0
+    movePlayerDirection: {x: 0, y: 0, z: 0}
+    movePlayerOnDirectionLayermask:
+      serializedVersion: 2
+      m_Bits: 0
+    usePhysicsForceOnMovePlayer: 0
+    physicsForceOnMovePlayer: 0
+    physicsForceOnMovePlayerDuration: 0
+    checkIfPositionReachedOnPhysicsForceOnMovePlayer: 0
+    mainAvatarTarget: 0
+    matchTargetTransform: {fileID: 0}
+    matchTargetPositionWeightMask: {x: 0, y: 0, z: 0}
+    matchTargetRotationWeightMask: 0
+    matchPlayerRotation: 0
+    matchPlayerRotationSpeed: 0
+    playerTargetTransform: {fileID: 0}
+    adjustPlayerPositionRotationDuring: 0
+    matchStartValue: 0
+    matchEndValue: 0
+    usePlayerWalkTarget: 0
+    useWalkAtTheEndOfAction: 0
+    playerWalkTarget: {fileID: 0}
+    maxWalkSpeed: 1
+    activateDynamicObstacleDetection: 0
+    setPlayerFacingDirection: 0
+    playerFacingDirectionTransform: {fileID: 0}
+    maxRotationAmount: 0
+    minRotationAmount: 0.3
+    minRotationAngle: 5
+    adjustFacingDirectionBasedOnPlayerPosition: 0
+    facingDirectionPositionTransform: {fileID: 0}
+    adjustRotationAtOnce: 0
+    useMovingPlayerToPositionTarget: 0
+    movingPlayerToPositionTargetSpeed: 5
+    movingPlayerToPositionTargetDelay: 0
+    destroyActionOnEnd: 0
+    removeActionOnEnd: 0
+    setActionState: 0
+    actionStateName: 
+    actionStateToConfigure: 0
+    setObjectParent: 0
+    boneParent: 0
+    objectToSetParent: {fileID: 0}
+    bonePositionReference: {fileID: 0}
+    waitTimeToParentObject: 0
+    setObjectParentSpeed: 0
+    useMountPoint: 0
+    mountPointName: 
+    useEventInfoList: 1
+    useAccumulativeDelay: 0
+    eventInfoList:
+    - delayToActivate: 1
+      eventToUse:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114144922952390274}
+            m_MethodName: setDeviceAction
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Get Up
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 114030896405793676}
+            m_MethodName: addDeviceToList
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useRemoteEvent: 0
+      remoteEventName: 
+      eventTriggered: 0
+      sendCurrentPlayerOnEvent: 0
+      eventToSendCurrentPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      callThisEventIfActionStopped: 0
+    firstPersonEventInfoList: []
+    disableHUDOnAction: 0
+    showGizmo: 0
+    keepWeaponsDuringAction: 0
+    drawWeaponsAfterAction: 0
+    disableIKWeaponsDuringAction: 0
+    stopAimOnFireWeapons: 0
+    stopShootOnFireWeapons: 0
+    hideMeleWeaponMeshOnAction: 0
+    setInvincibilityStateActive: 0
+    invincibilityStateDuration: 0
+    checkEventsOnTemporalInvincibilityActive: 0
+    disableDamageReactionDuringAction: 0
+    checkIfPlayerOnGround: 0
+    checkConditionsToStartActionOnUpdate: 0
+    playerMovingToStartAction: 0
+    checkPlayerToNotCrouch: 0
+    stopActionIfPlayerIsOnAir: 0
+    delayToStopActionIfPlayerIsOnAir: 0
+    getUpIfPlayerCrouching: 1
+    crouchOnActionEnd: 0
+    setPreviousCrouchStateOnActionEnd: 0
+    checkIfPlayerCanGetUpFromCrouch: 0
+    dropGrabbedObjectsOnAction: 1
+    dropOnlyIfNotGrabbedPhysically: 1
+    dropIfGrabbedPhysicallyWithIK: 1
+    keepGrabbedObjectOnActionIfNotDropped: 0
+    keepMeleeWeaponGrabbed: 0
+    drawMeleeWeaponGrabbedOnActionEnd: 0
+    useEventIfActionStopped: 0
+    eventIfActionStopped:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    pauseCustomInputListDuringActionActive: 0
+    customInputToPauseOnActionInfoList: []
+    useRaycastToAdjustMatchTransform: 0
+    useRaycastToAdjustTargetTransform: 0
+    useRaycastToAdjustPositionToAdjustPlayer: 0
+    layerForRaycast:
+      serializedVersion: 2
+      m_Bits: 0
+    pauseAIOnActionStart: 1
+    resumeAIOnActionEnd: 0
+    assignPartnerOnActionEnd: 0
+    checkUseMinAngleToActivateAction: 0
+    ignoreAnimationTransitionCheck: 0
+    pauseActivationOfOtherCustomActions: 0
+    disableAnyStateConfiguredWithExitTime: 0
+  - Name: Get Up From Chair
+    useActionName: 1
+    actionName: Get Up From Chair
+    useActionID: 0
+    actionID: 22
+    removeActionIDValueImmediately: 0
+    useCrossFadeAnimation: 1
+    pausePlayerActionsInput: 1
+    pausePlayerMovementInput: 1
+    resetPlayerMovementInput: 0
+    resetPlayerMovementInputSmoothly: 0
+    removePlayerMovementInputValues: 0
+    enablePlayerCanMoveAfterAction: 0
+    allowDownVelocityDuringAction: 0
+    pauseInteractionButton: 0
+    pauseInputListDuringActionActive: 0
+    ignorePauseInputListDuringAction: 0
+    pausePlayerCameraRotationInput: 0
+    pausePlayerCameraActionsInput: 0
+    pausePlayerCameraViewChange: 1
+    pausePlayerCameraMouseWheel: 1
+    disableHeadBob: 1
+    pauseHeadBob: 1
+    ignoreCameraDirectionOnMovement: 0
+    ignoreCameraDirectionOnStrafeMovement: 0
+    pauseStrafeState: 1
+    useNewCameraStateOnActionStart: 0
+    newCameraStateNameOnActionStart: 
+    setPreviousCameraStateOnActionEnd: 0
+    useNewCameraStateOnActionEnd: 0
+    newCameraStateNameOnActionEnd: 
+    ignorePivotCameraCollision: 0
+    disablePlayerGravity: 1
+    disablePlayerOnGroundState: 0
+    disablePlayerCollider: 1
+    disablePlayerColliderComponent: 0
+    enablePlayerColliderComponentOnActionEnd: 0
+    ignoreSetLastTimeFallingOnActionEnd: 0
+    reloadMainColliderOnCharacterOnActionEnd: 0
+    changePlayerColliderScale: 0
+    disableIKOnHands: 1
+    disableIKOnFeet: 1
+    pauseHeadTrack: 1
+    setNoFrictionOnCollider: 1
+    forceRootMotionDuringAction: 1
+    actionCanHappenOnAir: 0
+    jumpCanResumePlayer: 0
+    useMovementInput: 0
+    useInteractionButtonToActivateAnimation: 0
+    animationTriggeredByExternalEvent: 0
+    resumePlayerAfterAction: 1
+    increaseActionIndexAfterComplete: 0
+    waitForNextPlayerInteractionButtonPress: 1
+    stayInState: 0
+    resetActionIndexAfterComplete: 1
+    animationDuration: 2.2
+    animationSpeed: 1
+    actionDurationOnFirstPerson: 1
+    actionUsesMovement: 0
+    adjustRotationDuringMovement: 0
+    delayToPlayAnimation: 0
+    usePositionToAdjustPlayer: 0
+    positionToAdjustPlayer: {fileID: 0}
+    adjustPlayerPositionSpeed: 0
+    movePlayerOnDirection: 0
+    movePlayerOnDirectionRaycastDistance: 0
+    movePlayerOnDirectionSpeed: 0
+    movePlayerDirection: {x: 0, y: 0, z: 0}
+    movePlayerOnDirectionLayermask:
+      serializedVersion: 2
+      m_Bits: 0
+    usePhysicsForceOnMovePlayer: 0
+    physicsForceOnMovePlayer: 0
+    physicsForceOnMovePlayerDuration: 0
+    checkIfPositionReachedOnPhysicsForceOnMovePlayer: 0
+    mainAvatarTarget: 0
+    matchTargetTransform: {fileID: 0}
+    matchTargetPositionWeightMask: {x: 0, y: 0, z: 0}
+    matchTargetRotationWeightMask: 0
+    matchPlayerRotation: 0
+    matchPlayerRotationSpeed: 0
+    playerTargetTransform: {fileID: 0}
+    adjustPlayerPositionRotationDuring: 0
+    matchStartValue: 0
+    matchEndValue: 0
+    usePlayerWalkTarget: 0
+    useWalkAtTheEndOfAction: 1
+    playerWalkTarget: {fileID: 4371685339105132}
+    maxWalkSpeed: 0.5
+    activateDynamicObstacleDetection: 0
+    setPlayerFacingDirection: 0
+    playerFacingDirectionTransform: {fileID: 0}
+    maxRotationAmount: 0
+    minRotationAmount: 0.3
+    minRotationAngle: 5
+    adjustFacingDirectionBasedOnPlayerPosition: 0
+    facingDirectionPositionTransform: {fileID: 0}
+    adjustRotationAtOnce: 0
+    useMovingPlayerToPositionTarget: 0
+    movingPlayerToPositionTargetSpeed: 5
+    movingPlayerToPositionTargetDelay: 0
+    destroyActionOnEnd: 0
+    removeActionOnEnd: 0
+    setActionState: 0
+    actionStateName: 
+    actionStateToConfigure: 0
+    setObjectParent: 0
+    boneParent: 0
+    objectToSetParent: {fileID: 0}
+    bonePositionReference: {fileID: 0}
+    waitTimeToParentObject: 0
+    setObjectParentSpeed: 0
+    useMountPoint: 0
+    mountPointName: 
+    useEventInfoList: 1
+    useAccumulativeDelay: 0
+    eventInfoList:
+    - delayToActivate: 1
+      eventToUse:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114144922952390274}
+            m_MethodName: setDeviceAction
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Sit
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 114030896405793676}
+            m_MethodName: reloadDeviceStringActionOnPlayer
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useRemoteEvent: 0
+      remoteEventName: 
+      eventTriggered: 0
+      sendCurrentPlayerOnEvent: 0
+      eventToSendCurrentPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      callThisEventIfActionStopped: 0
+    firstPersonEventInfoList: []
+    disableHUDOnAction: 0
+    showGizmo: 0
+    keepWeaponsDuringAction: 0
+    drawWeaponsAfterAction: 0
+    disableIKWeaponsDuringAction: 1
+    stopAimOnFireWeapons: 0
+    stopShootOnFireWeapons: 0
+    hideMeleWeaponMeshOnAction: 0
+    setInvincibilityStateActive: 0
+    invincibilityStateDuration: 0
+    checkEventsOnTemporalInvincibilityActive: 0
+    disableDamageReactionDuringAction: 0
+    checkIfPlayerOnGround: 0
+    checkConditionsToStartActionOnUpdate: 0
+    playerMovingToStartAction: 0
+    checkPlayerToNotCrouch: 0
+    stopActionIfPlayerIsOnAir: 0
+    delayToStopActionIfPlayerIsOnAir: 0
+    getUpIfPlayerCrouching: 1
+    crouchOnActionEnd: 0
+    setPreviousCrouchStateOnActionEnd: 0
+    checkIfPlayerCanGetUpFromCrouch: 0
+    dropGrabbedObjectsOnAction: 1
+    dropOnlyIfNotGrabbedPhysically: 1
+    dropIfGrabbedPhysicallyWithIK: 1
+    keepGrabbedObjectOnActionIfNotDropped: 0
+    keepMeleeWeaponGrabbed: 0
+    drawMeleeWeaponGrabbedOnActionEnd: 0
+    useEventIfActionStopped: 0
+    eventIfActionStopped:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    pauseCustomInputListDuringActionActive: 0
+    customInputToPauseOnActionInfoList: []
+    useRaycastToAdjustMatchTransform: 0
+    useRaycastToAdjustTargetTransform: 0
+    useRaycastToAdjustPositionToAdjustPlayer: 0
+    layerForRaycast:
+      serializedVersion: 2
+      m_Bits: 0
+    pauseAIOnActionStart: 0
+    resumeAIOnActionEnd: 1
+    assignPartnerOnActionEnd: 0
+    checkUseMinAngleToActivateAction: 0
+    ignoreAnimationTransitionCheck: 0
+    pauseActivationOfOtherCustomActions: 0
+    disableAnyStateConfiguredWithExitTime: 0
+  playerList: []
+  useEventsOnPlayerInsideOutside: 0
+  eventOnPlayerInside:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnPlayerOutside:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventsOnStartEndAction: 0
+  eventOnStartAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnEndAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventAfterResumePlayer: 0
+  eventAfterResumePlayer:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  actionTransform: {fileID: 0}
+  sendCurrentPlayerOnEvent: 0
+  eventToSendCurrentPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  mainTrigger: {fileID: 0}
+  activateCustomActionAfterActionComplete: 0
+  customActionToActiveAfterActionComplete: 
+  addActionToListStoredToPlay: 0
+  playActionAutomaticallyIfStoredAtEnd: 0
+  useEventsToEnableDisableActionObject: 0
+  eventToEnableActionObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventToDisableActionObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  categoryName: 
+  canInterruptOtherActionActive: 0
+  actionListToInterrupt: []
+  useCategoryToCheckInterrupt: 0
+  actionCategoryListToInterrupt: []
+  eventOnInterrupOtherActionActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnInterruptedAction: 0
+  eventOnInterruptedAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useProbabilityToActivateAction: 0
+  probablityToActivateAction: 0
+  animationUsedOnUpperBody: 0
+  disableRegularActionActiveState: 0
+  disableRegularActionActiveStateOnEnd: 0
+  changeCameraViewToThirdPersonOnAction: 1
+  actionsCanBeUsedOnFirstPerson: 0
+  ignoreChangeToThirdPerson: 0
+  disableIgnorePlayerListChange: 1
+  showDebugPrint: 0
+  showGizmo: 1
+  showAllGizmo: 1
+  mainAnimator: {fileID: 0}
+  newAnimationClip: {fileID: 0}
+  actionNameToReplace: 
+  animationLayerName: Base Layer
+  newAnimationSpeed: 1
+  activateAnimationReplace: 0
+  newAnimationIsMirror: 0
+  setPlayerParentDuringActionActive: 0
+  playerParentDuringAction: {fileID: 0}

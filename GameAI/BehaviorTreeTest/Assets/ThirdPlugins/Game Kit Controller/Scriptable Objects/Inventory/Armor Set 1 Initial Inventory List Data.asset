@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a18edf5c34fa342b66285456c1949c, type: 3}
+  m_Name: Armor Set 1 Initial Inventory List Data
+  m_EditorClassIdentifier: 
+  Name: Armor Set 1
+  ID: 0
+  initialInventoryObjectInfoList:
+  - Name: Knight 1 Boots
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Chest
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Hips
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Knees
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Shoulders
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Fore Arms
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Gloves
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Lower Legs
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Upper Legs
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1
+  - Name: Knight 1 Helmet
+    amount: 1
+    isEquipped: 1
+    addInventoryObject: 1

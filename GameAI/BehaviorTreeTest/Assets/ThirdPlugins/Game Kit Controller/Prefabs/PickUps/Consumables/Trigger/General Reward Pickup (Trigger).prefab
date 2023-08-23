@@ -1,0 +1,531 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1802106299062728}
+  m_IsPrefabParent: 1
+--- !u!1 &1107566804397004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4974130069435712}
+  - component: {fileID: 33698968580078788}
+  - component: {fileID: 23474285358405244}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1248997673359872
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4507243062572532}
+  - component: {fileID: 212055969501075924}
+  m_Layer: 0
+  m_Name: New Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1309203024847914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4156996337048438}
+  - component: {fileID: 135388537232631474}
+  m_Layer: 2
+  m_Name: trigger
+  m_TagString: inventory
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1802106299062728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4625293578126936}
+  - component: {fileID: 54362824633844018}
+  - component: {fileID: 114797488670294292}
+  - component: {fileID: 114750450457341180}
+  - component: {fileID: 65823969019316692}
+  - component: {fileID: 114988245674648994}
+  - component: {fileID: 114230230488933578}
+  m_Layer: 0
+  m_Name: General Reward Pickup (Trigger)
+  m_TagString: box
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1831608468205668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4510511656240700}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4156996337048438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309203024847914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4625293578126936}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4507243062572532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248997673359872}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.17, z: 0}
+  m_LocalScale: {x: 0.5801203, y: 0.5801203, z: 0.5801203}
+  m_Children: []
+  m_Father: {fileID: 4510511656240700}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &4510511656240700
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831608468205668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4507243062572532}
+  - {fileID: 4974130069435712}
+  m_Father: {fileID: 4625293578126936}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4625293578126936
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.252168, y: 0.325, z: 4.205123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4156996337048438}
+  - {fileID: 4510511656240700}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4974130069435712
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107566804397004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7207233, y: 0.16668539, z: 0.7207232}
+  m_Children: []
+  m_Father: {fileID: 4510511656240700}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23474285358405244
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107566804397004}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33698968580078788
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107566804397004}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54362824633844018
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65823969019316692
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7315805, y: 0.34939802, z: 0.72142005}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114230230488933578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0f4c1137141684088c37bd25ef8e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useExperienceRandomRange: 0
+  experienceRandomRange: {x: 0, y: 0}
+  experienceAmount: 0
+  useTransformAsExpTextPosition: 1
+  objectTransform: {fileID: 0}
+  extraExperienceText: 
+  useMoneyRandomRange: 0
+  moneyRandomRange: {x: 0, y: 0}
+  moneyAmount: 0
+  giveInventoryObject: 0
+  inventoryObjectName: 
+  inventoryObjectAmount: 0
+  positionToInstantiateInventoryObjectPickup: {fileID: 0}
+  maxRadiusToInstantiate: 0
+  forceAmount: 0
+  forceRadius: 0
+  inventoryObjectForceMode: 0
+  spawnAllInventoryObjects: 0
+  giveInventoryObjectList: 0
+  inventoryElementInfoList: []
+  getInventoryObjectsFromInventoryBank: 0
+  mainInventoryBankSystem: {fileID: 0}
+  refillStamina: 0
+  refillFullStamina: 0
+  staminaAmountToRefill: 0
+  increaseInventorySlotsAmount: 0
+  extraInventorySlotsAmount: 0
+  increaseInventoryWeightLimit: 0
+  extraWeightLimit: 0
+  increaseStatsValues: 1
+  statInfoList:
+  - Name: Max Health
+    statIsAmount: 1
+    statExtraValue: 90
+    useRandomRange: 0
+    randomRange: {x: 0, y: 0}
+    newBoolState: 0
+  getSkillPoints: 0
+  useSkillPointsRandomRange: 0
+  skillPointsRandomRange: {x: 0, y: 0}
+  skillPointsAmount: 0
+  getSkill: 0
+  skillToGetName: 
+  showMessageOnGetSkill: 0
+  messageOnGetSkill: 
+  getAbility: 0
+  abilityToGetName: 
+  showMessageOnGetAbility: 0
+  messageOnGetAbility: 
+  getCraftingRecipes: 0
+  craftingRecipesList: []
+  setPlayerManually: 0
+  sendAlwaysToMainPlayer: 0
+  searchPlayerByTagIfNotAssigned: 1
+  playerToConfigure: {fileID: 0}
+  useEventOnReward: 0
+  eventtOnReward:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114750450457341180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ae62e50548b0d449f8f16fa5447c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storePickupOnInventory: 0
+  useInventoryObjectWhenPicked: 0
+  useCustomPickupMessage: 1
+  objectTakenAsPickupMessage: Rewards Obtained x -AMOUNT-
+  objectTakenAsInventoryMessage: Rewards Obtained x -AMOUNT- Stored
+  explanation: "Use -AMOUNT- in the position of the text \n to replace the amount
+    picked if you need it"
+  useAbilitiesListToEnableOnTakePickup: 0
+  abilitiesListToEnableOnTakePickup: []
+  activateAbilityOnTakePickup: 0
+  abilityNameToActiveOnTakePickup: 
+  abilityIsTemporallyActivated: 0
+  getCraftingRecipes: 0
+  craftingRecipesList: []
+  showDebugPrint: 0
+  mainPickupObject: {fileID: 114797488670294292}
+  mainObjectExperienceSystem: {fileID: 114230230488933578}
+--- !u!114 &114797488670294292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2931b7a580d5044082b16e57d353cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1
+  useAmountPerUnit: 0
+  amountPerUnit: 0
+  useDurability: 0
+  maxDurabilityAmount: 0
+  durabilityAmount: 0
+  pickUpSound: {fileID: 8300000, guid: f160e8697729222499ed27c488eb838a, type: 3}
+  pickUpSoundAudioElement:
+    audioPlayMethod: 1
+    audioEventName: 
+    clip: {fileID: 0}
+    audioSourceName: 
+    audioSource: {fileID: 0}
+  staticPickUp: 0
+  moveToPlayerOnTrigger: 1
+  pickUpOption: 0
+  canBeExamined: 0
+  usableByAnything: 0
+  usableByPlayer: 1
+  usableByVehicles: 0
+  usableByCharacters: 0
+  showPickupInfoOnTaken: 1
+  usePickupIconOnTaken: 0
+  pickupIcon: {fileID: 0}
+  takeWithTrigger: 1
+  usePickupIconOnScreen: 1
+  pickupIconGeneralName: Consumables (Pickups-Button)
+  pickupIconName: 
+  useEventOnTaken: 1
+  eventOnTaken:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114988245674648994}
+        m_MethodName: setElementActiveStateToMainElementOnSceneManager
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnRemainingAmount: 0
+  eventOnRemainingAmount:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPickupFinder: 0
+  sendPickupFinderEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  player: {fileID: 0}
+  vehicle: {fileID: 0}
+  npc: {fileID: 0}
+  finder: {fileID: 0}
+  finderIsPlayer: 0
+  finderIsVehicle: 0
+  finderIsCharacter: 0
+  playerTag: Player
+  friendTag: friend
+  enemyTag: enemy
+  amountTaken: 0
+  ignoreExamineObjectBeforeStoreEnabled: 0
+  mainPickupType: {fileID: 114750450457341180}
+  inventoryObjectManager: {fileID: 0}
+  deviceStringActionManager: {fileID: 0}
+  mainSphereCollider: {fileID: 135388537232631474}
+  mainCollider: {fileID: 65823969019316692}
+  mainRigidbody: {fileID: 54362824633844018}
+  weaponsManager: {fileID: 0}
+  vehicleHUD: {fileID: 0}
+  playerInventoryManager: {fileID: 0}
+  mainPickupManagerName: Pickup Manager
+  showDebugPrint: 0
+  inventoryAmountPicked: 0
+  examiningObject: 0
+--- !u!114 &114988245674648994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802106299062728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703bee9dfca61354fa8809e52e0ce318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveElementEnabled: 0
+  elementScene: 0
+  elementID: 0
+  elementActiveState: 1
+  savePositionValues: 1
+  saveRotationValues: 1
+  useCustomTransform: 0
+  customTransform: {fileID: 0}
+  elementPrefabID: -1
+  useStats: 0
+  loadStatsDelay: 0
+  statInfoList: []
+  useEventOnObjectActive: 0
+  eventOnObjectActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnObjectInactive: 1
+  eventOnObjectInactive:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114797488670294292}
+        m_MethodName: removePickupIconAndDisableObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDelayForEvent: 0
+  delayForEvent: 0
+  showDebugPrint: 0
+  useElementPrefabID: 0
+  objectOriginallyOnScene: 0
+--- !u!135 &135388537232631474
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309203024847914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.45
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &212055969501075924
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248997673359872}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9f321428dfb8c5a408b5b1b37c096e64, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.52, y: 0.52}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

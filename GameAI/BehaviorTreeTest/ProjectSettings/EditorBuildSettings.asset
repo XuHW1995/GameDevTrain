@@ -4,5 +4,253 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Home Menu/Home Menu.unity
+    guid: 4da31b3d45c47e64a9e73fce90308fbf
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Armor Cloth System.unity
+    guid: c28cf712aa5e43c488ed40c3717b2520
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/2.5d Demo (8 Way Aim Direction).unity
+    guid: bbb5fd1b1a6949843a94324dd2b4da92
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/2.5d Demo.unity
+    guid: 3f49eca32d501a24184c2eccc151da65
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Ability System.unity
+    guid: 23b5536c5e20488459e536afe60c195d
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Action System.unity
+    guid: abff85a0309faa946a6c71e3c23f0395
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/AI Demo.unity
+    guid: a8d45a20ee5bcc2449def025038e1a75
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/AI to hide and get on vehicles
+      Demo.unity
+    guid: a4e01c338932f734ba014f3e75ae3904
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Climb System Demo.unity
+    guid: 725605aac7c3635459ecb7a2320af095
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Crafting System.unity
+    guid: a692b9ad29fe3f347a8dbcc53620bdc5
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Cutscene System.unity
+    guid: 169bcbf7ffd1e2d4eafbdbd0020e031e
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Dialog Demo.unity
+    guid: 519225972be7d034fb22dc5bcd24c053
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Dual Weapons.unity
+    guid: 290eb94f239b01a4d97b1f6c07daa89a
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Elevators and Doors Systems.unity
+    guid: 3be7be238620340428209cf7262aaadb
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Experience-Skills-Stats-Level.unity
+    guid: fc142e2c404dc6a4b9c37e6a73dafe76
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Generic Models And Ride
+      System Demo Scene.unity
+    guid: f6f946d76fb5a504a90d0cba28d892e0
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/GKC Showcase 1.unity
+    guid: 169d4370ca2216c43b8a074b2a69c80f
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/GKC Showcase 2.unity
+    guid: 29a40f6ff91e51445832f81235d73a21
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Grab Objects Demo.unity
+    guid: 22b869c4f1f485342bfea7d0329b7785
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Gravity Room Manipulation
+      Demo.unity
+    guid: cc58030142428d44498f34b3eee0613a
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Inventory System.unity
+    guid: 053f63b17a8e51b40ab9fb3cc97fe95e
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Lock on Targets Demo.unity
+    guid: 92c095feb50cb644786171673c162fa7
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Locked Camera Transitions.unity
+    guid: 736a72ce0a16dde4992422c0e98ff1b9
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (First Person).unity
+    guid: c8b4f6e834aa1bb409434381ce39c4c7
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (Isometric).unity
+    guid: cea65ed7a010e4349b87f53ef06a6335
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (point and
+      click).unity
+    guid: a25f19802ade40c419c0f883c0c51eb9
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (Tank Controls).unity
+    guid: aa7a408584744f44387756422cb23e0f
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (Third Person
+      Facing Camera).unity
+    guid: e3887d1d144af1b469a64e42c7b635ac
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (Third Person
+      Remake 2).unity
+    guid: ff291b7c9135b2c4c8a2ba38c57f7c75
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo (Top Down).unity
+    guid: 45cfff0989c52fb49b8df6a95d57bcc5
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mansion Demo.unity
+    guid: 03de5a69562a7db4e91d0d1ae53e4a70
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Melee System Demo Top Down.unity
+    guid: 86368f2934f519848a2d5b05ae3bf47b
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Melee System Demo.unity
+    guid: 602d9e7cb3cfb194b9944d3bd05033a3
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mission System Advanced.unity
+    guid: 3e025c86cc123a14dbb1c3b348b689dc
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Mission System Demo.unity
+    guid: bb5532442348c0f4a94a992001dd828e
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Objectives System Demo.unity
+    guid: 25fc1af9bbb194b4e9b13b3a302544af
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Oxygen-Free Floating Mode-Zero
+      Gravity.unity
+    guid: 5e3beb1bc4109724b9430daf7f2aacae
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Possession System Demo (with
+      smartphone).unity
+    guid: 5f4a62725ea449044bd94b8054c34a48
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Possession System Demo.unity
+    guid: 022c3ebb7bd9df2479de9a119f3b558a
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Powers Demo Starting First
+      Person.unity
+    guid: 88e886a978f0d5948aefa2d44d96e341
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Powers Demo Starting Third
+      Person.unity
+    guid: f49a2cb0f2208664da548720e0e307bf
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Stairs Adherence System.unity
+    guid: 8facbb607fc02d74a9c3d23e786995bd
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Standard demo (all features
+      enabled).unity
+    guid: 7c5eb9aae83f9944dae98d155952e3ea
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Switch Character Companion
+      Ingame.unity
+    guid: e7e97514f4b9fb14aaafa0667aa960c3
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Top Down Demo.unity
+    guid: d67cf027d9d5e8e48a6b768520f619f9
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Traversal Movements-Actions
+      Demo Scene.unity
+    guid: 6dc1e6a2674048a478e6aa187d2bf61e
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Vehicle AI (Beta).unity
+    guid: 076d51585c8d1eb43b6427fa175d4b0c
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Vehicles Demo.unity
+    guid: a3b86ef74c02c2748b5ce9e886c4012a
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Wall Running, Crouch Sliding
+      and Ladders.unity
+    guid: 75e6d10d038a81e40a8838de788f4607
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Weapons Demo Starting First
+      Person.unity
+    guid: 534f9a74eea25bc4592040ef6deae739
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Weapons Demo Starting Third
+      Person.unity
+    guid: fc9426d7e06e81641896757d1e4e335c
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Zero Gravity.unity
+    guid: ced4fbfe82312d14485cddeb3e329fe5
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      2/Level Manager To Change Of Level Ingame Zone 1.unity
+    guid: e3cbbdef279d3b540b7ec78ba0ffc517
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      2/Level Manager To Change Of Level Ingame Zone 2.unity
+    guid: ca7af9056965d0744ae16312020c12d2
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      2/Level Manager To Change Of Level Ingame Zone 3.unity
+    guid: ac9e4422002bd5e4ebbc684aa6fc19cf
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      2/Level Manager To Change Of Level Ingame Zone 4.unity
+    guid: 61f7efba028a8af49836b3446de25ee8
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      1/Level Manager Building Scene 1.unity
+    guid: cd42b1c498b8bb94f900e176342f539a
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      1/Level Manager Building Scene 2.unity
+    guid: 7f98e9f94409036419a3ce01d88141a3
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      1/Level Manager Building Scene 3.unity
+    guid: ca8a0dc28d6711f41b4cbd9501f602ca
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Change Level Ingame/World
+      1/Level Manager Building Scene 4.unity
+    guid: 580962f976df0f741951a9a05916ab64
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/2.5d
+      Demo 2 Players (Player 1 using keyboard).unity
+    guid: 8e3990a81eca17b4e87c42a8f9001d6d
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/2.5d
+      Demo 2 Players.unity
+    guid: bb860e656a2b00840a2040c2cd668e36
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/Gravity
+      Room Manipulation Demo 2 Players.unity
+    guid: c93ef2ae186123545a0c6037db5abdb0
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/Mansion
+      Demo (Top Down) 2 Players.unity
+    guid: 55c604ec228e1134fb6e9e5cfe7e00f5
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/Mansion
+      Demo (Top Down) 3 Players.unity
+    guid: 1f726aebed7dbbd41b7235e30945bef2
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/New
+      Melee AI Demo Scene Local Multiplayer (Two Players).unity
+    guid: 4deb816ec50bacc489d6ab38a026699d
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/New
+      Melee AI Demo Scene Local Multiplayer Isometric (Two Players).unity
+    guid: af0796e96dd6cb94d89d469363123068
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/New
+      Melee AI Demo Scene Local Multiplayer Isometric Dynamic Split Screen.unity
+    guid: 198695738744dc34bb0cdd87f4934003
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/Top
+      Down Demo 2 Players.unity
+    guid: 6b515c1277898344081edf6d478665da
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Local Multiplayer Scenes/Vehicles
+      Demo 2 Players.unity
+    guid: a9c41a56e6e7c9840bed85d27928a7af
+  - enabled: 1
+    path: Assets/ThirdPlugins/Game Kit Controller/Scenes/Home Menu/Loading Screen
+      Scene.unity
+    guid: eb0cb8ea40ccca04fbb0a9714fe33f7d
   m_configObjects: {}
