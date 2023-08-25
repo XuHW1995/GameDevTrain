@@ -1532,6 +1532,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.09226322
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: c9f3e1113795a054c939de9883b31fed, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9f3e1113795a054c939de9883b31fed, type: 3}
 --- !u!1 &292633903 stripped
@@ -1558,8 +1562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6472286e732a4e019c48a4a1458b6a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testAnimator: {fileID: 292633904}
-  testClip: {fileID: 7400000, guid: c2ecee9424461bf4e864486b30ec0e9e, type: 2}
+  TestAnimator: {fileID: 292633904}
+  TestClip: {fileID: 7400000, guid: fd6e0d48a65905843a5f784b7acb18f0, type: 2}
+  speed: 0.5
+  graphSpeed: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
