@@ -3,31 +3,36 @@ using UnityEngine.Rendering;
 
 namespace XSRP.Runtime
 {
-    public class XCameraRender
+    public partial class XCameraRender
     {
         private ScriptableRenderContext _context;
         private Camera _camera;
-
+        
         private const string bufferName = "XCameraRender renderCamera";
+#if UNITY_EDITOR
+        private string SampleName
+        {
+            get;
+            set;
+        }
+#else
+        private string SampleName = bufferName;
+#endif
         private CommandBuffer cmb = new CommandBuffer{name = bufferName};
-
+        
         private CullingResults _cullingResults;
         private static ShaderTagId unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
-        
-        private static ShaderTagId[] legacyShaderTagIds = {
-            new ShaderTagId("Always"),
-            new ShaderTagId("ForwardBase"),
-            new ShaderTagId("PrepassBase"),
-            new ShaderTagId("Vertex"),
-            new ShaderTagId("VertexLMRGBM"),
-            new ShaderTagId("VertexLM")
-        };
         
         public void RenderCamera(ScriptableRenderContext context, Camera camera)
         {
             this._context = context;
             this._camera = camera;
 
+#if UNITY_EDITOR
+            PrepareForSceneWindows();
+#endif
+            PrepareCmdBuffer();
+            
             if (!Cull())
             {
                 return;
@@ -35,10 +40,19 @@ namespace XSRP.Runtime
             
             SetUp();
             DrawVisibleGeometry();
+#if UNITY_EDITOR
             DrawUnsupportedShader();
+            DrawGizmos();
+#endif
             Submit();
         }
-
+        
+        private void PrepareCmdBuffer()
+        {
+            cmb.name = _camera.name;
+            SampleName = _camera.name;
+        }
+        
         private bool Cull()
         {
             if (_camera.TryGetCullingParameters(out ScriptableCullingParameters cullingParameters))
@@ -56,9 +70,11 @@ namespace XSRP.Runtime
         private void SetUp()
         {
             _context.SetupCameraProperties(_camera);
-            cmb.ClearRenderTarget(true, true, Color.clear);
+
+            CameraClearFlags flags = _camera.clearFlags;
+            cmb.ClearRenderTarget(flags < CameraClearFlags.Depth, flags <= CameraClearFlags.Color, Color.clear);
             
-            cmb.BeginSample(bufferName);
+            cmb.BeginSample(SampleName);
             ExecuteCommandBuffer();
         }
 
@@ -85,28 +101,13 @@ namespace XSRP.Runtime
             filteringSettings.renderQueueRange = RenderQueueRange.transparent;
             _context.DrawRenderers(_cullingResults, ref drawSettings, ref filteringSettings);
         }
-
-        private void DrawUnsupportedShader()
-        {
-            var drawSettings = new DrawingSettings
-            (
-                legacyShaderTagIds[0], new SortingSettings(_camera)
-            );
-            
-            for (int i = 1; i < legacyShaderTagIds.Length; i++) {
-                drawSettings.SetShaderPassName(i, legacyShaderTagIds[i]);
-            }
-
-            var filteringSettings = FilteringSettings.defaultValue;
-            _context.DrawRenderers(_cullingResults, ref drawSettings, ref filteringSettings);
-        }
         
         /// <summary>
         /// 执行渲染指令
         /// </summary>
         private void Submit()
         {
-            cmb.EndSample(bufferName);
+            cmb.EndSample(SampleName);
             ExecuteCommandBuffer();
             _context.Submit();
         }
