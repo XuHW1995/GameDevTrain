@@ -51,7 +51,9 @@ namespace XSRP.Runtime
         protected override void Render(ScriptableRenderContext context, List<Camera> cameras)
         {
             base.Render(context, cameras);
-
+            
+            GraphicsSettings.useScriptableRenderPipelineBatching = useAssets.SRPBatches;
+            
             for (int i = 0; i < cameras.Count; i++)
             {
                 _cameraRender.RenderCamera(context, cameras[i]);

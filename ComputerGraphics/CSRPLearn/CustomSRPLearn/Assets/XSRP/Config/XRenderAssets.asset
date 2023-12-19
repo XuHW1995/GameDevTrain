@@ -17,3 +17,4 @@ MonoBehaviour:
   TestShader: {fileID: 0}
   TestMesh: {fileID: 0}
   TestName: XRednerAssets
+  SRPBatches: 1

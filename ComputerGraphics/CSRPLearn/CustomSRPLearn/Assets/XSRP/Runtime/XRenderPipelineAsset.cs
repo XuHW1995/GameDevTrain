@@ -12,6 +12,7 @@ public class XRenderPipelineAsset : RenderPipelineAsset
     public Shader TestShader;
     public Mesh TestMesh;
     public string TestName = "XRednerAssets";
+    public bool SRPBatches = true;
     
     protected override RenderPipeline CreatePipeline()
     {

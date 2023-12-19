@@ -21,7 +21,11 @@ namespace XSRP.Runtime
         private CommandBuffer cmb = new CommandBuffer{name = bufferName};
         
         private CullingResults _cullingResults;
-        private static ShaderTagId unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
+        
+        private static ShaderTagId[] allDrawShaderTagIds = {
+            new ShaderTagId("SRPDefaultUnlit"),
+            new ShaderTagId("XHWLightMode"),
+        };
         
         public void RenderCamera(ScriptableRenderContext context, Camera camera)
         {
@@ -88,7 +92,11 @@ namespace XSRP.Runtime
             {
                 criteria = SortingCriteria.CommonOpaque
             };
-            var drawSettings = new DrawingSettings(unlitShaderTagId, sortingSettings);
+            var drawSettings = new DrawingSettings(allDrawShaderTagIds[0], sortingSettings);
+            for (int i = 1; i < allDrawShaderTagIds.Length; i++) {
+                drawSettings.SetShaderPassName(i, allDrawShaderTagIds[i]);
+            }
+            
             var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
             _context.DrawRenderers(_cullingResults, ref drawSettings, ref filteringSettings);
             
